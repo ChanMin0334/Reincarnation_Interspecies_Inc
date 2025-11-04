@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dce05985541a6eb4cb6ce3701fcb62c9, type: 3}
+  m_Name: CH_1_010
+  m_EditorClassIdentifier: 
+  id: CH_1_010
+  value:
+    HP:
+      serializedValue: 100
+    Atk:
+      serializedValue: 10
+    AtkCooldown: 1.5
+    SkillCooldown: 5
+    AtkRange: 0.75
+    CritChance: 5
+    AtkArea: 0
+    MoveSpeed: 0
+    CritMult: 150
+    DamageDealMult: 100
+    DamageTakenMult: 100

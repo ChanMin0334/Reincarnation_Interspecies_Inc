@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee097c7d81589a34d82a56ee68cb9c70, type: 3}
+  m_Name: "AR_E_G_005_\uC601\uC0AC\uC758 \uBCF4\uC8FC"
+  m_EditorClassIdentifier: 
+  id: AR_E_G_005
+  name: "\uC601\uC0AC\uC758 \uBCF4\uC8FC"
+  dataType: 3
+  sprite: {fileID: 21300000, guid: 9911a2faa0ca5a94bbba72dbf78bc31a, type: 3}
+  description: "\uC801 \uCC98\uCE58 \uC2DC \uD30C\uD2F0 \uC804\uC6D0\uC774 \uAC01\uC790
+    \uCD5C\uB300 \uCCB4\uB825\uC758 1%\uB9CC\uD07C \uD68C\uBCF5\uB429\uB2C8\uB2E4."
+  rarity: 2
+  target: 2
+  charClass: 0
+  effectClassName: TeamHealOnKill
+  value: 1
+  maxCount: 30
+  statType: 13

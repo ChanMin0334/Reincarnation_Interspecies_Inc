@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6310537917a1cfb40ad0eb0aca35b43f, type: 3}
+  m_Name: "SK_1_008_\uD654\uC5FC \uBD84\uCD9C"
+  m_EditorClassIdentifier: 
+  id: SK_1_008
+  name: "\uD654\uC5FC \uBD84\uCD9C"
+  dataType: 4
+  sprite: {fileID: 21300000, guid: 7d22a67a16e3c8f4c94267735c71d858, type: 3}
+  description: "\uB545\uC18D\uC758 \uB9C8\uB825\uC744 \uD3ED\uBC1C\uC2DC\uCF1C \uB2E4\uC218\uC758
+    \uD654\uC5FC \uAE30\uB465\uC744 \uBD84\uCD9C\uC2DC\uCF1C 250% \uD53C\uD574\uB97C
+    \uC900\uB2E4"
+  coolDown: 12
+  type: 0
+  isPassive: 0
+  triggerEvent: 0
+  effects:
+  - effectType: 0
+    targetType: 4
+    power: 250
+    duration: 0
+    buffType: 0
+    effectDescription: '[Damage] Enemy 180% 0s None'
+    condition: 0
+    conditionValue: 0
+    tickInterval: 0
+    effectData:
+      effectPrefab: {fileID: 1245140177819923681, guid: e661dbc3950dd4e29b5f4c5f3f5de95a, type: 3}
+      triggerType: 0
+      duration: 0
+      animSpeed: 1
+      moveSpeed: 10

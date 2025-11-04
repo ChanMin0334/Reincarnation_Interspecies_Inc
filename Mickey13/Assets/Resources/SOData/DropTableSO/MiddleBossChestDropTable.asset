@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ba4b21e2094201408e29ad48c245983, type: 3}
+  m_Name: MiddleBossChestDropTable
+  m_EditorClassIdentifier: 
+  entries:
+  - {fileID: 11400000, guid: 220b43cf8f8f8eb418f1b3dc91609523, type: 2}
+  - {fileID: 11400000, guid: c6711cf721a1dbf4a9757bb0f766c785, type: 2}
+  - {fileID: 11400000, guid: 3dd9a311d8b468145b018bab29e39cc9, type: 2}
+  - {fileID: 11400000, guid: 5bdf06525c67a954284456f02c8c873c, type: 2}
+  - {fileID: 11400000, guid: 52b619abf05b276428c945b25fc815c4, type: 2}
+  - {fileID: 11400000, guid: 2461148a33b664d4fb19583b2f00003d, type: 2}
+  - {fileID: 11400000, guid: 4094327854b14834ca3bb0f9926fdd0c, type: 2}
+  - {fileID: 11400000, guid: 67b7aefb831157040bae0bcba5158b1c, type: 2}
+  - {fileID: 11400000, guid: 2bc66df5fb75668448b903eb6b0ef0df, type: 2}
+  - {fileID: 11400000, guid: ce70b93ed377fca4cb55a5ed92c21be3, type: 2}
+  - {fileID: 11400000, guid: 1a5a609485a9b274ebd612dabbe90b01, type: 2}
+  - {fileID: 11400000, guid: 1ea48fb8d292a9a46b37f091b27455bb, type: 2}
+  - {fileID: 11400000, guid: d4c804234b26d82489900bfe02f0b8e5, type: 2}
+  - {fileID: 11400000, guid: 9309cc46dd946784fb5e3b10843a78d1, type: 2}
+  - {fileID: 11400000, guid: d4a7595adafb85345adc7eb16e72e94b, type: 2}
+  - {fileID: 11400000, guid: 012f5cef3fc69ba4687e849ad436bf35, type: 2}
+  - {fileID: 11400000, guid: fca026e23a8cdd541be6b2c0871cbaff, type: 2}
+  - {fileID: 11400000, guid: 81ffc48bea04b864a97e708ef898324e, type: 2}
+  - {fileID: 11400000, guid: 3dc161dfc8dc0554ca55022ffbedcabd, type: 2}
+  - {fileID: 11400000, guid: 7ac36264f01efc84f8fc02439b8dcb54, type: 2}
+  - {fileID: 11400000, guid: 2086506e85638b84cb2bcdadb395f84d, type: 2}
+  - {fileID: 11400000, guid: 2a269128b73042a42a6ab13769efaac5, type: 2}
+  - {fileID: 11400000, guid: 1adae10d688ef6147b6deb779a65cc71, type: 2}
+  - {fileID: 11400000, guid: e3f9d874daf4ff44a8719871dee425b7, type: 2}
+  - {fileID: 11400000, guid: d0152502b740457468ef005d61bb19a7, type: 2}
+  - {fileID: 11400000, guid: b95844bff2f753e4e82db2ee1e6d24a5, type: 2}
+  commonPercent: 50
+  rarePercent: 35
+  epicPercent: 12
+  legendaryPercent: 2.9
+  uniquePercent: 0.1

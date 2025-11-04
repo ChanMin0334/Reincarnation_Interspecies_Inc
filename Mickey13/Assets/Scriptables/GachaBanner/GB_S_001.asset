@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d1110638325ab48ac290a449523ada, type: 3}
+  m_Name: GB_S_001
+  m_EditorClassIdentifier: 
+  id: GB_S_001
+  name: "\uB8EC \uBF51\uAE30"
+  dataType: 5
+  sprite: {fileID: 0}
+  description: 
+  bannerSprite: {fileID: 21300000, guid: af29aa72fd02477418670300cd954ba5, type: 3}
+  gachaType: 0
+  gachaMachine:
+    basicPools:
+    - {fileID: 11400000, guid: 0768f121358a4794e937086e142f62be, type: 2}
+    - {fileID: 11400000, guid: a280469fd91bbab4290599b86daa3f24, type: 2}
+    - {fileID: 11400000, guid: e170c367a22cd3348a7f4b84991206f3, type: 2}
+    - {fileID: 11400000, guid: d0e1ce4598afc8940b25fbed9a0b1ae4, type: 2}
+    - {fileID: 11400000, guid: b8b37cc47b334a44ea4142b39d4a3ada, type: 2}
+    - {fileID: 11400000, guid: 6d2c69b5a5c16a241a012f21499869ca, type: 2}
+    - {fileID: 11400000, guid: 7fd1aadf96f370e449f49e14ad36154b, type: 2}
+    - {fileID: 11400000, guid: b63524626a671804680c8d64cabdd292, type: 2}
+    - {fileID: 11400000, guid: c6be8dc3c92dcda46b9c4fa9272c35ec, type: 2}
+    - {fileID: 11400000, guid: 532b7b6e58fff5042b803427eb935db2, type: 2}
+    - {fileID: 11400000, guid: ae1dd5f1d5e306d4e8c19c7c9dc06d8f, type: 2}
+    - {fileID: 11400000, guid: 8af0c4691208ea943abc4c6210262587, type: 2}
+    - {fileID: 11400000, guid: 54cf0cffd287a17418d4721eaceb1671, type: 2}
+    - {fileID: 11400000, guid: ab9eb3c4eccfa1a4cb1f18ebfa1fc40a, type: 2}
+    - {fileID: 11400000, guid: 1f669af7168529f4b813dbb995f0f24e, type: 2}
+    - {fileID: 11400000, guid: 087459cacdd398046a90404f5d705685, type: 2}
+    - {fileID: 11400000, guid: befe1d0b71d4f2b469d24949f6b09964, type: 2}
+    - {fileID: 11400000, guid: 3e73ab0cd0fd8e148a9b6f2fbd6f71aa, type: 2}
+    - {fileID: 11400000, guid: 91c9df3f720be6c4ba78770b0a4cd821, type: 2}
+    - {fileID: 11400000, guid: 3e8717c44b1dd154481074289d20064a, type: 2}
+    - {fileID: 11400000, guid: 990b443a81cb3e74ebde707fa2d78508, type: 2}
+    - {fileID: 11400000, guid: ff36f758357a78a4bb0ccfa47484537c, type: 2}
+    - {fileID: 11400000, guid: 06666b3c007cf5844a32b11e0bd47e33, type: 2}
+    - {fileID: 11400000, guid: 059808810b0c96e4eb2dd3df55340813, type: 2}
+    - {fileID: 11400000, guid: 33e51db8ac4c5774ea2a8b85378a75cd, type: 2}
+    - {fileID: 11400000, guid: 501bb6f9d92b8a64ba23aebbd2cc7526, type: 2}
+    - {fileID: 11400000, guid: 97d6affda28ef6641a04c818e9baf36c, type: 2}
+    - {fileID: 11400000, guid: 605a5a75ffba8e346a461ecec3a97090, type: 2}
+    - {fileID: 11400000, guid: 7b59aee8e1e514448994377291db585f, type: 2}
+    - {fileID: 11400000, guid: f3461671b73dace47be8769e513b0d10, type: 2}
+    - {fileID: 11400000, guid: 98302eed533262b4c89270e7cb4b6f53, type: 2}
+    - {fileID: 11400000, guid: 945c46000c601c24c8d846cca2868082, type: 2}
+    - {fileID: 11400000, guid: 4d8623237675e7c438bb68383f714fcc, type: 2}
+    - {fileID: 11400000, guid: 7ac0a4221a6275f4781184729ba1b18f, type: 2}
+    - {fileID: 11400000, guid: 4ea644da42e5e74459ddb310227c720b, type: 2}
+    - {fileID: 11400000, guid: 117ef34e6e2d3d74daa4881929691a9b, type: 2}
+    - {fileID: 11400000, guid: 7e70a78179b1cad4c89cd2097eb07ac3, type: 2}
+    - {fileID: 11400000, guid: 5868af0ac09bf2d44a13c2053dd3da2b, type: 2}
+    - {fileID: 11400000, guid: b769c6a53147437478c82051dceb8c61, type: 2}
+    - {fileID: 11400000, guid: 6c1b5fb5b66805147849cecd239a38c8, type: 2}
+    - {fileID: 11400000, guid: 69df159a35c2c2a45b69e929a8c4f185, type: 2}
+    - {fileID: 11400000, guid: b8778cb9df65a0e428ca9824b52bb08e, type: 2}
+    - {fileID: 11400000, guid: 82974142cdd6d3642b1a3758a06502fe, type: 2}
+    - {fileID: 11400000, guid: 2d01c804777d2a947897f0fd9a60524d, type: 2}
+    - {fileID: 11400000, guid: 0c2e721b28cffe0418efaf0452d5d8c9, type: 2}
+    - {fileID: 11400000, guid: 06745d78ff0baee40998bc03c92fbfb6, type: 2}
+    - {fileID: 11400000, guid: 500289df9d3ead4439dd4842014dfbe9, type: 2}
+    - {fileID: 11400000, guid: 22433c13d605e2948b40a81677776e3f, type: 2}
+    - {fileID: 11400000, guid: e30aa1398de0a0d48b22bfcac7b92771, type: 2}
+    - {fileID: 11400000, guid: b4945aade72654342b3cda7a7c209677, type: 2}
+    - {fileID: 11400000, guid: 352644491f3ebea4d8695b1f23797dcf, type: 2}
+    - {fileID: 11400000, guid: ccfb1f17f996082448239419254e0919, type: 2}
+    rarityPercent:
+    - rarity: 1
+      percent: 73.9
+    - rarity: 2
+      percent: 20
+    - rarity: 3
+      percent: 5
+    - rarity: 4
+      percent: 1
+    - rarity: 5
+      percent: 0.1
+    pickupPools:
+    - pickupData: {fileID: 11400000, guid: e30aa1398de0a0d48b22bfcac7b92771, type: 2}
+      pickupPercent: 0.05
+    - pickupData: {fileID: 11400000, guid: b4945aade72654342b3cda7a7c209677, type: 2}
+      pickupPercent: 0.05
+    - pickupData: {fileID: 11400000, guid: 352644491f3ebea4d8695b1f23797dcf, type: 2}
+      pickupPercent: 0.05
+    - pickupData: {fileID: 0}
+      pickupPercent: 0.05
+    debugMode: 0
+    pityLimit: 50
+  currencyType: 2
+  gachaCost: 100

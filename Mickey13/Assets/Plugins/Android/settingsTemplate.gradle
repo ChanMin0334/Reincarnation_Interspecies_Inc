@@ -1,0 +1,51 @@
+pluginManagement {
+    repositories {
+        **ARTIFACTORYREPOSITORY**
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        def repoAdder = { repoHandler ->
+            def unityProjectPath = new File(settingsDir, "../../../../../..").canonicalFile
+            def candidateRoots = [
+                new File(unityProjectPath, "Assets/GeneratedLocalRepo"),
+                new File(unityProjectPath, "Assets/Firebase"),
+                new File(unityProjectPath, "Assets/Externals/Firebase")
+            ]
+
+            candidateRoots.findAll { it.exists() }.each { rootDir ->
+                def directM2 = new File(rootDir, "m2repository")
+                if (directM2.exists()) {
+                    repoHandler.maven { url = directM2.toURI() }
+                }
+
+                rootDir.eachDir { repoDir ->
+                    def m2Repository = new File(repoDir, "m2repository")
+                    if (m2Repository.exists()) {
+                        repoHandler.maven { url = m2Repository.toURI() }
+                    }
+                }
+            }
+        }
+        repoAdder(delegate)
+        settings.ext.localRepoAdder = repoAdder
+    }
+}
+
+include ':launcher', ':unityLibrary'
+**INCLUDES**
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        **ARTIFACTORYREPOSITORY**
+        google()
+        mavenCentral()
+        def repoAdder = settings.ext.has('localRepoAdder') ? settings.ext.localRepoAdder : null
+        if (repoAdder != null) {
+            repoAdder(delegate)
+        }
+        flatDir {
+            dirs "${project(':unityLibrary').projectDir}/libs"
+        }
+    }
+}

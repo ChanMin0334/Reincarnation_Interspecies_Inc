@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee097c7d81589a34d82a56ee68cb9c70, type: 3}
+  m_Name: "AR_E_G_001_\uC608\uC5B8\uC758 \uC591\uD53C\uC9C0"
+  m_EditorClassIdentifier: 
+  id: AR_E_G_001
+  name: "\uC608\uC5B8\uC758 \uC591\uD53C\uC9C0"
+  dataType: 3
+  sprite: {fileID: 21300000, guid: 70a006b583e53994d97eb1f77fc39d92, type: 3}
+  description: "\uB3C4\uB2EC\uD55C \uAC70\uB9AC\uC5D0 \uBE44\uB840\uD558\uC5EC 1km\uB9C8\uB2E4
+    0.1%\uB9CC\uD07C \uCD5C\uB300 \uCCB4\uB825\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+  rarity: 2
+  target: 2
+  charClass: 0
+  effectClassName: DistanceMaxHP
+  value: 0.1
+  maxCount: 30
+  statType: 13

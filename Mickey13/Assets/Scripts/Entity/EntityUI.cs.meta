@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cae84785ed06d6e4ba5c882cc2b904df
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - UIPrefab: {fileID: 4915105737588677002, guid: 0ca7d55c8723fd84496c47a230c8aa8c, type: 3}
+  - UICanvas: {instanceID: 0}
+  - targetEntity: {instanceID: 0}
+  - hpFillImage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

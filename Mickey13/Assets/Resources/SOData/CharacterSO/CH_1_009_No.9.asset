@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32b33f3b123960f489ca4d5461dee2f2, type: 3}
+  m_Name: CH_1_009_No.9
+  m_EditorClassIdentifier: 
+  id: CH_1_009
+  name: No.9
+  dataType: 0
+  sprite: {fileID: 0}
+  description: "\uD14C\uC2A4\uD2B8\uC6A9 9\uD638\uAE30"
+  baseStat: {fileID: 11400000, guid: 2a551be346b24844fa88c645bb155f73, type: 2}
+  attackType: 2
+  charClass: 2
+  rarity: 4
+  levelUpHP: 1.3
+  levelUpATK: 1.3
+  fullSprite: {fileID: 0}
+  ActiveSkill_1: {fileID: 0}
+  ActiveSkill_2: {fileID: 0}
+  ActiveSkill_3: {fileID: 0}
+  PassiveSkill: {fileID: 0}

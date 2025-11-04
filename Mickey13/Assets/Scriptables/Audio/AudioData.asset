@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00430cb3c7a6f62419b45359f9f3f7b1, type: 3}
+  m_Name: AudioData
+  m_EditorClassIdentifier: 
+  bgmList:
+  - bgmType: 1
+    path: Audio/Bgm/Stage_1
+  - bgmType: 2
+    path: Audio/Bgm/Stage_2
+  - bgmType: 3
+    path: Audio/Bgm/Stage_3
+  - bgmType: 4
+    path: Audio/Bgm/Stage_4
+  - bgmType: 5
+    path: Audio/Bgm/Stage_5
+  - bgmType: 6
+    path: Audio/Bgm/Boss_Default
+  - bgmType: 7
+    path: Audio/Bgm/Boss_1
+  - bgmType: 8
+    path: Audio/Bgm/Boss_2
+  - bgmType: 9
+    path: Audio/Bgm/Boss_3
+  - bgmType: 10
+    path: Audio/Bgm/Boss_4
+  sfxList:
+  - sfxType: 0
+    sfxPlayType: 0
+    paths:
+    - Audio/Sfx/Button_Click
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 1
+    sfxPlayType: 0
+    paths:
+    - Audio/Sfx/Stamp
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 2
+    sfxPlayType: 2
+    paths:
+    - Audio/Sfx/Attack_Warrior
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 3
+    sfxPlayType: 2
+    paths:
+    - Audio/Sfx/Attack_Mage
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 4
+    sfxPlayType: 2
+    paths:
+    - Audio/Sfx/Attack_Archer
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 15
+    sfxPlayType: 2
+    paths:
+    - Audio/Sfx/Skill_Smash
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 16
+    sfxPlayType: 2
+    paths:
+    - Audio/Sfx/Skill_Blessing
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 17
+    sfxPlayType: 2
+    paths:
+    - Audio/Sfx/Skill_Electric
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 18
+    sfxPlayType: 2
+    paths:
+    - Audio/Sfx/Skill_Dark
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 19
+    sfxPlayType: 2
+    paths:
+    - Audio/Sfx/Skill_Fire
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 20
+    sfxPlayType: 2
+    paths:
+    - Audio/Sfx/Skill_Flame
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 21
+    sfxPlayType: 2
+    paths:
+    - Audio/Sfx/Skill_Light
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 22
+    sfxPlayType: 2
+    paths:
+    - Audio/Sfx/Skill_Piercing
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 23
+    sfxPlayType: 2
+    paths:
+    - Audio/Sfx/Skill_Shield
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 24
+    sfxPlayType: 2
+    paths:
+    - Audio/Sfx/Skill_Ice
+    minPitch: 0.9
+    maxPitch: 1.2
+  - sfxType: 25
+    sfxPlayType: 2
+    paths:
+    - Audio/Sfx/Skill_Heal
+    minPitch: 0.9
+    maxPitch: 1.2

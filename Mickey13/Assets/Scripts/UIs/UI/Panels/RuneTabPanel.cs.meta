@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: ea3b8ca7e431a33469342142673d7e8d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - RunePrefab: {fileID: 871018705521041705, guid: 88d188431a3196c4f9cb902d782156f9, type: 3}
+  - content: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

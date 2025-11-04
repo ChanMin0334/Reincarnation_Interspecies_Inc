@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee097c7d81589a34d82a56ee68cb9c70, type: 3}
+  m_Name: "AR_C_G_010_\uBC14\uB78C\uB098\uBB34 \uC9C0\uD321\uC774"
+  m_EditorClassIdentifier: 
+  id: AR_C_G_010
+  name: "\uBC14\uB78C\uB098\uBB34 \uC9C0\uD321\uC774"
+  dataType: 3
+  sprite: {fileID: 21300000, guid: 98833f032b6545c42915e4a2ad24abee, type: 3}
+  description: "\uC2A4\uD0AC\uC758 \uCFE8\uD0C0\uC784\uC774 10% \uAC10\uC18C\uD569\uB2C8\uB2E4."
+  rarity: 1
+  target: 2
+  charClass: 0
+  effectClassName: StatBoost
+  value: 10
+  maxCount: 99
+  statType: 3

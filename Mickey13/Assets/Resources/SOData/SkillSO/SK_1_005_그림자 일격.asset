@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6310537917a1cfb40ad0eb0aca35b43f, type: 3}
+  m_Name: "SK_1_005_\uADF8\uB9BC\uC790 \uC77C\uACA9"
+  m_EditorClassIdentifier: 
+  id: SK_1_005
+  name: "\uADF8\uB9BC\uC790 \uC77C\uACA9"
+  dataType: 4
+  sprite: {fileID: 21300000, guid: 789406be469a949428bb8207ea2b42c6, type: 3}
+  description: "2\uCE78 \uAC70\uB9AC\uAE4C\uC9C0\uC758 \uC801\uC5D0\uAC8C 200% \uD53C\uD574"
+  coolDown: 6
+  type: 0
+  isPassive: 0
+  triggerEvent: 0
+  effects:
+  - effectType: 0
+    targetType: 4
+    power: 200
+    duration: 0
+    buffType: 0
+    effectDescription: '[Damage] AllEnemies 200% 0s None'
+    condition: 0
+    conditionValue: 0
+    tickInterval: 0
+    effectData:
+      effectPrefab: {fileID: 1841780736722639168, guid: c2626d46a2e2e44d6bfab85bdae02d4f, type: 3}
+      triggerType: 0
+      duration: 0
+      animSpeed: 1
+      moveSpeed: 10

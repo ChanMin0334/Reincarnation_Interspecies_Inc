@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32b33f3b123960f489ca4d5461dee2f2, type: 3}
+  m_Name: "CH_1_017_\uB9B0\uB290"
+  m_EditorClassIdentifier: 
+  id: CH_1_017
+  name: "\uB9B0\uB290"
+  dataType: 0
+  sprite: {fileID: 21300000, guid: 4d61914da791e114aa711e8bffdf4184, type: 3}
+  description: '"..."'
+  baseStat: {fileID: 11400000, guid: 8548b0229fc2cf447b729eba0bc35e1c, type: 2}
+  attackType: 2
+  charClass: 2
+  rarity: 3
+  levelUpHP: 1.13148
+  levelUpATK: 1.13148
+  fullSprite: {fileID: 21300000, guid: 3332f6f86bd479349978e0c01ed4346c, type: 3}
+  ActiveSkill_1: {fileID: 11400000, guid: 2f6d99838b44b784a9d6a1dc18a823e6, type: 2}
+  ActiveSkill_2: {fileID: 11400000, guid: f1d28e8a3b41033469dac9328ebd9b40, type: 2}
+  ActiveSkill_3: {fileID: 11400000, guid: dc08e7bfcde11e546b212bfdbcb35bad, type: 2}
+  PassiveSkill: {fileID: 0}

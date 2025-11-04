@@ -1,0 +1,2131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f39ea474fd97224bbaff2c6e220e2a4, type: 3}
+  m_Name: GameInfoExcel
+  m_EditorClassIdentifier: 
+  Character_Status:
+  - ID: CH_1_001
+    BaseHP: 100
+    BaseATK: 10
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 1.5
+    BaseSkillCoolDown: 10
+    BaseATKRange: 1
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_002
+    BaseHP: 60
+    BaseATK: 14
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 2
+    BaseSkillCoolDown: 8
+    BaseATKRange: 1.5
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_003
+    BaseHP: 80
+    BaseATK: 12
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 2.5
+    BaseSkillCoolDown: 8
+    BaseATKRange: 2
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_004
+    BaseHP: 70
+    BaseATK: 13
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 3
+    BaseSkillCoolDown: 10
+    BaseATKRange: 2
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_005
+    BaseHP: 90
+    BaseATK: 11
+    BaseCritChance: 2
+    BaseCritMult: 150
+    BaseATKCoolDown: 1.8
+    BaseSkillCoolDown: 9
+    BaseATKRange: 1.2
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_006
+    BaseHP: 90
+    BaseATK: 15
+    BaseCritChance: 1
+    BaseCritMult: 150
+    BaseATKCoolDown: 2.2
+    BaseSkillCoolDown: 8
+    BaseATKRange: 1.2
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_007
+    BaseHP: 80
+    BaseATK: 9
+    BaseCritChance: 3
+    BaseCritMult: 150
+    BaseATKCoolDown: 1.2
+    BaseSkillCoolDown: 11
+    BaseATKRange: 1.7
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_008
+    BaseHP: 120
+    BaseATK: 13
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 2.8
+    BaseSkillCoolDown: 9
+    BaseATKRange: 1.2
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_009
+    BaseHP: 75
+    BaseATK: 12
+    BaseCritChance: 2
+    BaseCritMult: 150
+    BaseATKCoolDown: 2
+    BaseSkillCoolDown: 10
+    BaseATKRange: 2.3
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_010
+    BaseHP: 100
+    BaseATK: 10
+    BaseCritChance: 5
+    BaseCritMult: 150
+    BaseATKCoolDown: 1.5
+    BaseSkillCoolDown: 5
+    BaseATKRange: 0.75
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_011
+    BaseHP: 86
+    BaseATK: 12
+    BaseCritChance: 5
+    BaseCritMult: 150
+    BaseATKCoolDown: 2
+    BaseSkillCoolDown: 10
+    BaseATKRange: 3
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_012
+    BaseHP: 90
+    BaseATK: 9
+    BaseCritChance: 5
+    BaseCritMult: 150
+    BaseATKCoolDown: 2.5
+    BaseSkillCoolDown: 15
+    BaseATKRange: 2.25
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_013
+    BaseHP: 91
+    BaseATK: 12
+    BaseCritChance: 5
+    BaseCritMult: 150
+    BaseATKCoolDown: 1.3
+    BaseSkillCoolDown: 8
+    BaseATKRange: 1.5
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_014
+    BaseHP: 87
+    BaseATK: 13
+    BaseCritChance: 5
+    BaseCritMult: 150
+    BaseATKCoolDown: 2.2
+    BaseSkillCoolDown: 20
+    BaseATKRange: 2.25
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_015
+    BaseHP: 84
+    BaseATK: 12
+    BaseCritChance: 5
+    BaseCritMult: 150
+    BaseATKCoolDown: 1.4
+    BaseSkillCoolDown: 12
+    BaseATKRange: 2.25
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_016
+    BaseHP: 107
+    BaseATK: 10
+    BaseCritChance: 5
+    BaseCritMult: 150
+    BaseATKCoolDown: 1.9
+    BaseSkillCoolDown: 10
+    BaseATKRange: 1.5
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_017
+    BaseHP: 86
+    BaseATK: 13
+    BaseCritChance: 5
+    BaseCritMult: 150
+    BaseATKCoolDown: 1.5
+    BaseSkillCoolDown: 0
+    BaseATKRange: 3
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  - ID: CH_1_018
+    BaseHP: 94
+    BaseATK: 11
+    BaseCritChance: 5
+    BaseCritMult: 150
+    BaseATKCoolDown: 1.8
+    BaseSkillCoolDown: 0
+    BaseATKRange: 0.75
+    BaseATKArea: 0
+    BaseMoveSpeed: 0
+  Enemy_Status:
+  - ID: EN_01_101
+    BaseHP: 24
+    BaseATK: 3
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 2
+    BaseSkillCoolDown: 8
+    BaseATKRange: 1
+    BaseATKArea: 0
+    BaseMoveSpeed: 3
+  - ID: EN_01_102
+    BaseHP: 18
+    BaseATK: 4
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 3.5
+    BaseSkillCoolDown: 8
+    BaseATKRange: 2.5
+    BaseATKArea: 0
+    BaseMoveSpeed: 2
+  - ID: EN_01_201
+    BaseHP: 150
+    BaseATK: 9
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 2.5
+    BaseSkillCoolDown: 9
+    BaseATKRange: 1.5
+    BaseATKArea: 0
+    BaseMoveSpeed: 1.5
+  - ID: EN_01_301
+    BaseHP: 300
+    BaseATK: 15
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 4
+    BaseSkillCoolDown: 10
+    BaseATKRange: 1.3
+    BaseATKArea: 0
+    BaseMoveSpeed: 2
+  - ID: EN_02_101
+    BaseHP: 18
+    BaseATK: 4
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 3
+    BaseSkillCoolDown: 11
+    BaseATKRange: 2.2
+    BaseATKArea: 0
+    BaseMoveSpeed: 2
+  - ID: EN_02_102
+    BaseHP: 24
+    BaseATK: 3
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 2
+    BaseSkillCoolDown: 12
+    BaseATKRange: 2.3
+    BaseATKArea: 0
+    BaseMoveSpeed: 1.7
+  - ID: EN_02_201
+    BaseHP: 150
+    BaseATK: 9
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 3.2
+    BaseSkillCoolDown: 11
+    BaseATKRange: 2.5
+    BaseATKArea: 0
+    BaseMoveSpeed: 2
+  - ID: EN_02_301
+    BaseHP: 300
+    BaseATK: 15
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 4
+    BaseSkillCoolDown: 11
+    BaseATKRange: 1.5
+    BaseATKArea: 0
+    BaseMoveSpeed: 2
+  - ID: EN_03_101
+    BaseHP: 16
+    BaseATK: 4
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 2
+    BaseSkillCoolDown: 8
+    BaseATKRange: 1
+    BaseATKArea: 0
+    BaseMoveSpeed: 2.5
+  - ID: EN_03_102
+    BaseHP: 24
+    BaseATK: 3
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 2
+    BaseSkillCoolDown: 8
+    BaseATKRange: 1
+    BaseATKArea: 0
+    BaseMoveSpeed: 2.5
+  - ID: EN_03_201
+    BaseHP: 150
+    BaseATK: 9
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 1
+    BaseSkillCoolDown: 8
+    BaseATKRange: 1.5
+    BaseATKArea: 0
+    BaseMoveSpeed: 3.5
+  - ID: EN_03_301
+    BaseHP: 300
+    BaseATK: 16
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 1.5
+    BaseSkillCoolDown: 10
+    BaseATKRange: 4
+    BaseATKArea: 0
+    BaseMoveSpeed: 2
+  - ID: EN_04_101
+    BaseHP: 24
+    BaseATK: 3
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 2
+    BaseSkillCoolDown: 10
+    BaseATKRange: 1.5
+    BaseATKArea: 0
+    BaseMoveSpeed: 1.5
+  - ID: EN_04_102
+    BaseHP: 18
+    BaseATK: 4
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 3
+    BaseSkillCoolDown: 10
+    BaseATKRange: 3
+    BaseATKArea: 0
+    BaseMoveSpeed: 1
+  - ID: EN_04_201
+    BaseHP: 150
+    BaseATK: 9
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 2
+    BaseSkillCoolDown: 10
+    BaseATKRange: 1.7
+    BaseATKArea: 0
+    BaseMoveSpeed: 1.3
+  - ID: EN_04_301
+    BaseHP: 300
+    BaseATK: 15
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 1.7
+    BaseSkillCoolDown: 10
+    BaseATKRange: 1.8
+    BaseATKArea: 0
+    BaseMoveSpeed: 1
+  - ID: EN_05_101
+    BaseHP: 24
+    BaseATK: 3
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 1.5
+    BaseSkillCoolDown: 10
+    BaseATKRange: 1
+    BaseATKArea: 0
+    BaseMoveSpeed: 1.2
+  - ID: EN_05_102
+    BaseHP: 18
+    BaseATK: 4
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 1.9
+    BaseSkillCoolDown: 10
+    BaseATKRange: 1
+    BaseATKArea: 0
+    BaseMoveSpeed: 1.3
+  - ID: EN_05_201
+    BaseHP: 150
+    BaseATK: 9
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 3
+    BaseSkillCoolDown: 10
+    BaseATKRange: 1.2
+    BaseATKArea: 0
+    BaseMoveSpeed: 1.8
+  - ID: EN_05_301
+    BaseHP: 300
+    BaseATK: 15
+    BaseCritChance: 0
+    BaseCritMult: 150
+    BaseATKCoolDown: 4
+    BaseSkillCoolDown: 10
+    BaseATKRange: 1.5
+    BaseATKArea: 0
+    BaseMoveSpeed: 1
+  Character_IDs:
+  - ID: CH_1_001
+    Name: No.1
+    Description: "\uD14C\uC2A4\uD2B8\uC6A9 1\uD638\uAE30 \uC785\uB2C8\uB2E4. \uC804\uC0AC
+      \uC911\uC5D0\uC11C\uB3C4 \uC804\uC704\uB97C \uB2F4\uB2F9\uD558\uB294 \uD0F1\uCEE4
+      \uD3EC\uC9C0\uC158\uC785\uB2C8\uB2E4."
+    Class: 1
+    Rarity: 1
+    LevelUpHP: 1.05
+    LevelUpATK: 1.05
+    ActiveSkill1: 
+    ActiveSkill2: 
+    ActiveSkill3: 
+    PassiveSkill: 
+    AttackType: 1
+  - ID: CH_1_002
+    Name: No.2
+    Description: "\uD14C\uC2A4\uD2B8\uC6A9 2\uD638\uAE30 \uC785\uB2C8\uB2E4. \uAD81\uC218
+      \uC911\uC5D0\uC11C\uB3C4 \uAFB8\uC900\uD55C \uB51C\uC744 \uB123\uB294 \uB51C\uB7EC
+      \uD3EC\uC9C0\uC158 \uC785\uB2C8\uB2E4."
+    Class: 2
+    Rarity: 2
+    LevelUpHP: 1.1
+    LevelUpATK: 1.1
+    ActiveSkill1: 
+    ActiveSkill2: 
+    ActiveSkill3: 
+    PassiveSkill: 
+    AttackType: 2
+  - ID: CH_1_003
+    Name: No.3
+    Description: "\uD14C\uC2A4\uD2B8\uC6A9 3\uD638\uAE30 \uC785\uB2C8\uB2E4. \uB9C8\uBC95\uC0AC
+      \uC911\uC5D0\uC11C\uB3C4 \uAD11\uC5ED \uB51C\uC744 \uB123\uB294 \uAD11\uC5ED
+      \uB51C\uB7EC \uD3EC\uC9C0\uC158 \uC785\uB2C8\uB2E4."
+    Class: 3
+    Rarity: 3
+    LevelUpHP: 1.2
+    LevelUpATK: 1.2
+    ActiveSkill1: 
+    ActiveSkill2: 
+    ActiveSkill3: 
+    PassiveSkill: 
+    AttackType: 3
+  - ID: CH_1_004
+    Name: No.4
+    Description: "\uD14C\uC2A4\uD2B8\uC6A9 4\uD638\uAE30 \uC785\uB2C8\uB2E4. \uB9C8\uBC95\uC0AC
+      \uC911\uC5D0\uC11C\uB3C4 \uADF9\uD55C\uC758 \uC2A4\uD0AC \uB51C\uC744 \uB123\uB294
+      \uC2A4\uD0AC \uB51C\uB7EC \uD3EC\uC9C0\uC158 \uC785\uB2C8\uB2E4."
+    Class: 3
+    Rarity: 4
+    LevelUpHP: 1.3
+    LevelUpATK: 1.3
+    ActiveSkill1: 
+    ActiveSkill2: 
+    ActiveSkill3: 
+    PassiveSkill: 
+    AttackType: 3
+  - ID: CH_1_005
+    Name: No.5
+    Description: "\uD14C\uC2A4\uD2B8\uC6A9 5\uD638\uAE30"
+    Class: 1
+    Rarity: 5
+    LevelUpHP: 1.4
+    LevelUpATK: 1.4
+    ActiveSkill1: 
+    ActiveSkill2: 
+    ActiveSkill3: 
+    PassiveSkill: 
+    AttackType: 1
+  - ID: CH_1_006
+    Name: No.6
+    Description: "\uD14C\uC2A4\uD2B8\uC6A9 6\uD638\uAE30"
+    Class: 1
+    Rarity: 1
+    LevelUpHP: 1.05
+    LevelUpATK: 1.05
+    ActiveSkill1: 
+    ActiveSkill2: 
+    ActiveSkill3: 
+    PassiveSkill: 
+    AttackType: 1
+  - ID: CH_1_007
+    Name: No.7
+    Description: "\uD14C\uC2A4\uD2B8\uC6A9 7\uD638\uAE30"
+    Class: 3
+    Rarity: 2
+    LevelUpHP: 1.1
+    LevelUpATK: 1.1
+    ActiveSkill1: 
+    ActiveSkill2: 
+    ActiveSkill3: 
+    PassiveSkill: 
+    AttackType: 3
+  - ID: CH_1_008
+    Name: No.8
+    Description: "\uD14C\uC2A4\uD2B8\uC6A9 8\uD638\uAE30"
+    Class: 1
+    Rarity: 3
+    LevelUpHP: 1.2
+    LevelUpATK: 1.2
+    ActiveSkill1: 
+    ActiveSkill2: 
+    ActiveSkill3: 
+    PassiveSkill: 
+    AttackType: 1
+  - ID: CH_1_009
+    Name: No.9
+    Description: "\uD14C\uC2A4\uD2B8\uC6A9 9\uD638\uAE30"
+    Class: 2
+    Rarity: 4
+    LevelUpHP: 1.3
+    LevelUpATK: 1.3
+    ActiveSkill1: 
+    ActiveSkill2: 
+    ActiveSkill3: 
+    PassiveSkill: 
+    AttackType: 2
+  - ID: CH_1_010
+    Name: "\uC544\uB9B0"
+    Description: "\u201C\uC624\uB298\uB3C4 \uB9C8\uC871.. \uC774\uC885\uC871 \uB140\uC11D\uB4E4
+      \uC794\uB729 \uC7A1\uC73C\uB7EC \uAC00\uC790!\u201D"
+    Class: 1
+    Rarity: 1
+    LevelUpHP: 1.13148
+    LevelUpATK: 1.13148
+    ActiveSkill1: SK_1_001
+    ActiveSkill2: SK_1_002
+    ActiveSkill3: SK_2_007
+    PassiveSkill: 
+    AttackType: 1
+  - ID: CH_1_011
+    Name: "\uC138\uB808\uB098"
+    Description: "\u201C\uB2F9\uC2E0\uC740 \uC800\uD76C \uB9C8\uC744 \uC0AC\uB78C\uB4E4\uC744
+      \uAC74\uB4DC\uB9AC\uC9C0 \uC54A\uB294\uB2E4, \uC800\uB294 \uB2F9\uC2E0\uC744
+      \uC704\uD574 \uC77C\uD55C\uB2E4. \uADF8\uAC83\uBFD0\uC785\uB2C8\uB2E4.\u201D"
+    Class: 2
+    Rarity: 1
+    LevelUpHP: 1.13148
+    LevelUpATK: 1.13148
+    ActiveSkill1: SK_2_001
+    ActiveSkill2: SK_2_006
+    ActiveSkill3: SK_2_003
+    PassiveSkill: 
+    AttackType: 2
+  - ID: CH_1_012
+    Name: "\uC544\uB9AC\uC5D8"
+    Description: "\u201C\uC624\uB298\uB3C4 \uC790\uB9E4\uB2D8\uB4E4\uC758 \uB9C8\uAE30\uB97C
+      \uC5F4\uC2EC\uD788 \uC815\uD654\uD574\uB4DC\uB824\uC57C\uACA0\uC5B4\uC694\u201D"
+    Class: 3
+    Rarity: 1
+    LevelUpHP: 1.13148
+    LevelUpATK: 1.13148
+    ActiveSkill1: SK_3_005
+    ActiveSkill2: SK_2_012
+    ActiveSkill3: SK_2_011
+    PassiveSkill: 
+    AttackType: 3
+  - ID: CH_1_013
+    Name: "\uD074\uB85C\uC5D0"
+    Description: "\u201C\uD558\uB8E8\uC5D0 5\uC2DC\uAC04\uC774\uB098 \uC798 \uC218
+      \uC788\uB2E4\uB2C8, \uC815\uB9D0 \uCD5C\uACE0\uC796\uC544!\u201D \u201C\uC800\uAE30
+      \uC800\uAE30, \uC774\uBC88\uC5D4 \uC5B4\uB5A4 \uB140\uC11D\uB4E4 \uC7A1\uC544\uC624\uBA74
+      \uB3FC!?\u201D"
+    Class: 1
+    Rarity: 1
+    LevelUpHP: 1.13148
+    LevelUpATK: 1.13148
+    ActiveSkill1: SK_1_004
+    ActiveSkill2: SK_1_005
+    ActiveSkill3: SK_1_006
+    PassiveSkill: 
+    AttackType: 4
+  - ID: CH_1_014
+    Name: "\uBE44\uBE44\uC548"
+    Description: "\u201C\uD750\uD765~ \uB108, \uAF64\uB098 \uC88B\uC740 \uC7AC\uB8CC\uAC00
+      \uB418\uACA0\uB294\uAC78?\u201D"
+    Class: 3
+    Rarity: 3
+    LevelUpHP: 1.13148
+    LevelUpATK: 1.13148
+    ActiveSkill1: SK_2_009
+    ActiveSkill2: SK_2_010
+    ActiveSkill3: SK_3_003
+    PassiveSkill: 
+    AttackType: 3
+  - ID: CH_1_015
+    Name: "\uC2DC\uB8E8"
+    Description: "\u201C\uC8FC\uC778\uB2D8! \uC624\uB298\uC740 \uC5B4\uB514\uB85C
+      \uAC00\uB294\uAC70\uC57C?\u201D \u201C\uC8FC\uC778\uB2D8\uC774 \uC544\uB2C8\uB77C
+      \uC0AC\uC7A5..\uB2D8..? \uC2DC\uB8E8\uB294 \uADF8\uB7F0 \uC5B4\uB824\uC6B4
+      \uB2E8\uC5B4 \uBAB0\uB77C!\u201D"
+    Class: 2
+    Rarity: 2
+    LevelUpHP: 1.13148
+    LevelUpATK: 1.13148
+    ActiveSkill1: SK_2_005
+    ActiveSkill2: SK_1_011
+    ActiveSkill3: SK_2_001
+    PassiveSkill: 
+    AttackType: 2
+  - ID: CH_1_016
+    Name: "\uB8E8\uB8E8"
+    Description: "\"\uC800\uB294 \uC800\uC758 \uC2E0\uB150\uC744 \uC9C0\uD0AC \uBFD0\uC785\uB2C8\uB2E4.\""
+    Class: 1
+    Rarity: 2
+    LevelUpHP: 1.13148
+    LevelUpATK: 1.13148
+    ActiveSkill1: SK_1_001
+    ActiveSkill2: SK_2_008
+    ActiveSkill3: SK_1_003
+    PassiveSkill: 
+    AttackType: 1
+  - ID: CH_1_017
+    Name: "\uB9B0\uB290"
+    Description: '"..."'
+    Class: 2
+    Rarity: 3
+    LevelUpHP: 1.13148
+    LevelUpATK: 1.13148
+    ActiveSkill1: SK_2_002
+    ActiveSkill2: SK_1_010
+    ActiveSkill3: SK_3_002
+    PassiveSkill: 
+    AttackType: 2
+  - ID: CH_1_018
+    Name: "\uC5D0\uC774\uB9B0"
+    Description: "\"\uC65C \uB9C8\uBC95\uC0AC\uC778\uB370 \uAC80\uC744 \uB4E4\uACE0\uB2E4\uB2C8\uB0D0\uACE0?
+      \uADF8\uAC8C \uB354 \uBA4B\uC788\uC73C\uB2C8\uAE4C~\""
+    Class: 1
+    Rarity: 2
+    LevelUpHP: 1.13148
+    LevelUpATK: 1.13148
+    ActiveSkill1: SK_1_007
+    ActiveSkill2: SK_1_008
+    ActiveSkill3: SK_3_004
+    PassiveSkill: 
+    AttackType: 1
+  Enemy_IDs:
+  - ID: EN_01_101
+    Name: "\uACE0\uBE14\uB9B0"
+    Description: "\uD3C9\uBC94\uD55C \uACE0\uBE14\uB9B0\uC785\uB2C8\uB2E4."
+    EnemyRankID: 0
+    EnemySizeID: 0
+    AttackType: 4
+  - ID: EN_01_102
+    Name: "\uACE0\uBE14\uB9B0 \uAD81\uC218"
+    Description: "\uACE0\uBE14\uB9B0\uC774 \uD65C\uC744 \uC8FC\uC6CC\uC11C \uC0AC\uC6A9\uD558\uACE0\uC788\uC2B5\uB2C8\uB2E4."
+    EnemyRankID: 0
+    EnemySizeID: 0
+    AttackType: 2
+  - ID: EN_01_201
+    Name: "\uD649 \uACE0\uBE14\uB9B0"
+    Description: "\uACE0\uBE14\uB9B0\uC758 \uC9C4\uD654\uCCB4\uC774\uC790 \uBCC0\uC885\uC785\uB2C8\uB2E4.
+      \uD3C9\uBC94\uD55C \uC778\uAC04\uACFC \uBE44\uC2B7\uD55C \uBB34\uB825\uC744
+      \uAC00\uC9C0\uACE0 \uC788\uC2B5\uB2C8\uB2E4."
+    EnemyRankID: 1
+    EnemySizeID: 1
+    AttackType: 1
+  - ID: EN_01_301
+    Name: "\uACE0\uBE14\uB9B0 \uD0B9"
+    Description: "\uACE0\uBE14\uB9B0\uB4E4\uC744 \uD1B5\uC194\uD558\uB294 \uC655\uC785\uB2C8\uB2E4.
+      \uAC15\uB825\uD569\uB2C8\uB2E4."
+    EnemyRankID: 2
+    EnemySizeID: 1
+    AttackType: 1
+  - ID: EN_02_101
+    Name: "\uCF54\uBCFC\uD2B8"
+    Description: "\uD30C\uCDA9\uB958\uC640 \uC950\uB97C \uC11E\uC5B4\uB193\uC740
+      \uC678\uD615\uC785\uB2C8\uB2E4."
+    EnemyRankID: 0
+    EnemySizeID: 0
+    AttackType: 2
+  - ID: EN_02_102
+    Name: "\uCF54\uBCFC\uD2B8 \uC804\uC0AC"
+    Description: "\uAE30\uBCF8\uC801\uC73C\uB85C \uADFC\uB825\uC774 \uC57D\uD574
+      \uAC80\uC0AC\uB97C \uD558\uC9C0 \uBABB\uD558\uC9C0\uB9CC \uC218\uB828\uB05D\uC5D0
+      \uAC80\uC0AC\uAC00 \uB41C \uCF54\uBCFC\uD2B8\uC785\uB2C8\uB2E4."
+    EnemyRankID: 0
+    EnemySizeID: 1
+    AttackType: 4
+  - ID: EN_02_201
+    Name: "\uCF54\uBCFC\uD2B8 \uBC31\uC778\uC7A5"
+    Description: "\uCF54\uBCFC\uD2B8 \uC804\uC0AC \uC911\uC5D0\uC11C\uB3C4 \uAC15\uD55C\uC790\uAC00
+      \uC5BB\uC744\uC218\uC788\uB294 \uBC31\uC778\uC7A5\uC758 \uCE6D\uD638\uB97C
+      \uBC1B\uC740 \uAC15\uB825\uD55C \uCF54\uBCFC\uD2B8\uC785\uB2C8\uB2E4."
+    EnemyRankID: 1
+    EnemySizeID: 1
+    AttackType: 1
+  - ID: EN_02_301
+    Name: "\uCF54\uBCFC\uD2B8 \uB300\uC7A5"
+    Description: "\uCF54\uBCFC\uD2B8\uB4E4 \uC911 \uAC00\uC7A5 \uAC15\uD55C \uAC1C\uCCB4\uC785\uB2C8\uB2E4.
+      \uBB34\uB9AC\uB97C \uD1B5\uC194\uD558\uACE0 \uC9C0\uD718\uD569\uB2C8\uB2E4."
+    EnemyRankID: 2
+    EnemySizeID: 1
+    AttackType: 1
+  - ID: EN_03_101
+    Name: "\uC65C\uC18C\uD55C \uB7AB\uB9E8"
+    Description: "\uB7AB\uB9E8\uB4E4 \uC911 \uAC00\uC7A5 \uC57D\uD55C \uAC1C\uCCB4\uC785\uB2C8\uB2E4.
+      \uB3C4\uD0DC\uB418\uC5B4\uBCF4\uC785\uB2C8\uB2E4."
+    EnemyRankID: 0
+    EnemySizeID: 0
+    AttackType: 4
+  - ID: EN_03_102
+    Name: "\uD3C9\uBC94\uD55C \uB7AB\uB9E8"
+    Description: "\uD3C9\uBC94\uD55C \uAC15\uD568\uC744 \uAC00\uC9C4 \uB7AB\uB9E8\uC785\uB2C8\uB2E4."
+    EnemyRankID: 0
+    EnemySizeID: 0
+    AttackType: 1
+  - ID: EN_03_201
+    Name: "\uD654\uB09C \uB7AB\uB9E8"
+    Description: "\uC790\uC2E0\uB4E4\uC758 \uAC70\uC8FC\uC9C0\uC5D0 \uCE68\uC785\uD55C
+      \uC0AC\uB78C\uB4E4\uC5D0\uAC8C \uD654\uAC00 \uB098 \uC804\uD22C\uB825\uC774
+      \uC0C1\uC2B9\uD55C \uB7AB\uB9E8\uC785\uB2C8\uB2E4."
+    EnemyRankID: 1
+    EnemySizeID: 0
+    AttackType: 1
+  - ID: EN_03_301
+    Name: "\uD2B8\uC704\uC9C0"
+    Description: "\uB7AB\uB9E8\uB4E4\uC758 \uC655, \uD2B8\uC704\uC9C0\uC785\uB2C8\uB2E4.
+      \uC5B4\uB290\uB0A0 \uD558\uC218\uB3C4\uC5D0 \uB5A0\uB0B4\uB824 \uC628 \uC11D\uAD81\uC744
+      \uC8FC\uC6CC\uC11C, \uC0AC\uC6A9\uD558\uB294 \uBC95\uC744 \uC775\uD614\uACE0
+      \uADF8\uB294 \uB7AB\uB9E8\uB4E4\uC758 \uC655\uC774 \uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    EnemyRankID: 2
+    EnemySizeID: 1
+    AttackType: 2
+  - ID: EN_04_101
+    Name: "\uC624\uD06C \uC804\uC0AC"
+    Description: "\uC778\uAC04\uBCF4\uB2E4 \uAC70\uB300\uD55C \uB369\uCE58\uB97C
+      \uC9C0\uB2CC \uC624\uD06C \uC804\uC0AC\uC785\uB2C8\uB2E4. \uC9D9\uC740 \uCD08\uB85D
+      \uD53C\uBD80\uAC00 \uD2B9\uC9D5\uC785\uB2C8\uB2E4."
+    EnemyRankID: 0
+    EnemySizeID: 2
+    AttackType: 1
+  - ID: EN_04_102
+    Name: "\uC624\uD06C \uC8FC\uC220\uC0AC"
+    Description: "\uC624\uD06C\uC871\uC758 \uC8FC\uC220\uC744 \uC0AC\uC6A9\uD558\uB294
+      \uC8FC\uC220\uC0AC\uC785\uB2C8\uB2E4."
+    EnemyRankID: 0
+    EnemySizeID: 2
+    AttackType: 3
+  - ID: EN_04_201
+    Name: "\uC624\uD06C \uCC54\uD53C\uC5B8"
+    Description: "\uC804\uD22C\uBBFC\uC871\uC778 \uC624\uD06C\uB4E4 \uC911 \uAC00\uC7A5
+      \uAC15\uD55C \uC790\uB4E4\uC785\uB2C8\uB2E4. \uD53C\uBD80\uC758 \uC0C1\uCC98\uB294
+      \uADF8\uB4E4\uC758 \uBA85\uC608\uC774\uC790 \uD6C8\uC7A5\uC785\uB2C8\uB2E4."
+    EnemyRankID: 1
+    EnemySizeID: 2
+    AttackType: 1
+  - ID: EN_04_301
+    Name: "\uAC00\uB85C\uC298"
+    Description: "\uB2E4\uB978 \uC624\uD06C\uB4E4\uACFC \uB2EC\uB9AC \uBE68\uAC04
+      \uD53C\uBD80\uB97C \uD0C0\uACE0\uB09C \uAC00\uB85C\uC298\uC740 \uC624\uD06C\uC871
+      \uC804\uC124\uB85C \uB0B4\uB824\uC624\uB294 \uC2E0\uD654\uC758 \uC8FC\uC778\uACF5\uC785\uB2C8\uB2E4."
+    EnemyRankID: 2
+    EnemySizeID: 2
+    AttackType: 1
+  - ID: EN_05_101
+    Name: "\uAC80\uC744 \uB4E0 \uB4DC\uC6CC\uD504"
+    Description: "\uB300\uC7A5\uC7A5\uC774 \uC77C\uC871\uC778 \uB4DC\uC6CC\uD504\uC785\uB2C8\uB2E4.
+      \uB2E8\uC870\uD558\uACE0 \uC788\uB358 \uAC80\uC744 \uB4E4\uACE0 \uAE09\uD558\uAC8C
+      \uB098\uC654\uC2B5\uB2C8\uB2E4."
+    EnemyRankID: 0
+    EnemySizeID: 0
+    AttackType: 1
+  - ID: EN_05_102
+    Name: "\uC5EC\uC131 \uB4DC\uC6CC\uD504"
+    Description: "\uB4DC\uC6CC\uD504\uB294 \uC5EC\uC131\uB4E4\uB3C4 \uD798\uC774
+      \uAC15\uD574 \uC804\uD22C\uC6D0\uC73C\uB85C\uC11C \uD65C\uC57D\uD558\uACE4\uD569\uB2C8\uB2E4."
+    EnemyRankID: 0
+    EnemySizeID: 0
+    AttackType: 4
+  - ID: EN_05_201
+    Name: "\uAC70\uB300\uD55C \uB3C4\uB07C\uB97C \uB4E0 \uB4DC\uC6CC\uD504"
+    Description: "\uC790\uC2E0\uC758 \uC8FC \uBB34\uC7A5\uC778 \uB3C4\uB07C\uB97C
+      \uB4E4\uACE0 \uC628 \uB4DC\uC6CC\uD504\uC785\uB2C8\uB2E4."
+    EnemyRankID: 1
+    EnemySizeID: 0
+    AttackType: 1
+  - ID: EN_05_301
+    Name: "\uC0D8\uB9AC"
+    Description: "\uB4DC\uC6CC\uD504\uB4E4\uC758 \uC655\uC778 \uC0D8\uB9AC\uB294
+      \uC218\uBC31\uB144 \uB4DC\uC6CC\uD504 \uC5ED\uC0AC \uC911 \uAC00\uC7A5 \uC131\uAD70\uC774\uC790
+      \uAC15\uC778\uD55C \uC790\uB85C \uBD88\uB9AC\uB294 \uC778\uBB3C\uC785\uB2C8\uB2E4.
+      \uADF8\uC758 \uB9DD\uCE58 \uD06C\uAE30\uB294 \uADF8\uC758 \uC2E0\uC7A5\uC758
+      4\uBC30\uB294 \uB418\uC5B4\uBCF4\uC785\uB2C8\uB2E4."
+    EnemyRankID: 2
+    EnemySizeID: 0
+    AttackType: 1
+  QuestInfo:
+  - ID: QU_001
+    Name: "\uB9C8\uC744 \uC21C\uCC30"
+    Description: test
+    requirement: 0
+    duration: 3
+    upgradeCost:
+      serializedValue: 60
+    reward:
+      serializedValue: 60
+    upgradeMult: 1.2086
+    rewardMult: 1.1484
+  - ID: QU_002
+    Name: "\uC5F4\uB9E4 \uCC44\uC9D1"
+    Description: test
+    requirement: 30
+    duration: 5
+    upgradeCost:
+      serializedValue: 833
+    reward:
+      serializedValue: 280
+    upgradeMult: 1.2086
+    rewardMult: 1.1484
+  - ID: QU_003
+    Name: "\uAD11\uC11D \uCC44\uAD74"
+    Description: test
+    requirement: 60
+    duration: 10
+    upgradeCost:
+      serializedValue: 1446
+    reward:
+      serializedValue: 646
+    upgradeMult: 1.2086
+    rewardMult: 1.1484
+  - ID: QU_004
+    Name: "\uD558\uC218\uAD6C \uCCAD\uC18C"
+    Description: test
+    requirement: 90
+    duration: 30
+    upgradeCost:
+      serializedValue: 5024
+    reward:
+      serializedValue: 6281
+    upgradeMult: 1.2086
+    rewardMult: 1.1484
+  - ID: QU_005
+    Name: "\uD22C\uAE30\uC7A5 \uC6B4\uC601"
+    Description: test
+    requirement: 120
+    duration: 60
+    upgradeCost:
+      serializedValue: 11494
+    reward:
+      serializedValue: 24630
+    upgradeMult: 1.2086
+    rewardMult: 1.1484
+  - ID: QU_006
+    Name: "\uBB34\uAD6C \uC81C\uC791"
+    Description: test
+    requirement: 150
+    duration: 210
+    upgradeCost:
+      serializedValue: 52594
+    reward:
+      serializedValue: 295800
+    upgradeMult: 1.2086
+    rewardMult: 1.1484
+  - ID: QU_007
+    Name: "\uBAA9\uC7AC \uAC00\uACF5"
+    Description: test
+    requirement: 180
+    duration: 300
+    upgradeCost:
+      serializedValue: 120323
+    reward:
+      serializedValue: 1003000
+    upgradeMult: 1.2086
+    rewardMult: 1.1484
+  - ID: QU_008
+    Name: "\uBC84\uC12F \uC7AC\uBC30"
+    Description: test
+    requirement: 210
+    duration: 600
+    upgradeCost:
+      serializedValue: 550543
+    reward:
+      serializedValue: 8258000
+    upgradeMult: 1.2086
+    rewardMult: 1.1484
+  - ID: QU_009
+    Name: "\uB179\uC6A9 \uC81C\uC791"
+    Description: test
+    requirement: 240
+    duration: 900
+    upgradeCost:
+      serializedValue: 1260000
+    reward:
+      serializedValue: 25760000
+    upgradeMult: 1.2086
+    rewardMult: 1.1484
+  Rune_IDs:
+  - ID: RN_C_W_001
+    Name: "\uD798\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uACF5\uACA9\uB825\uC744 10% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 1
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 1
+    EffectValue: 10
+  - ID: RN_C_W_002
+    Name: "\uC0DD\uBA85\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uCCB4\uB825\uC744 10% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 1
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 0
+    EffectValue: 10
+  - ID: RN_C_A_001
+    Name: "\uD798\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uACF5\uACA9\uB825\uC744 10% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 1
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 1
+    EffectValue: 10
+  - ID: RN_C_A_002
+    Name: "\uC0DD\uBA85\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uCCB4\uB825\uC744 10% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 1
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 0
+    EffectValue: 10
+  - ID: RN_C_M_001
+    Name: "\uD798\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uACF5\uACA9\uB825\uC744 10% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 1
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 1
+    EffectValue: 10
+  - ID: RN_C_M_002
+    Name: "\uC0DD\uBA85\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uCCB4\uB825\uC744 10% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 1
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 0
+    EffectValue: 10
+  - ID: RN_C_G_001
+    Name: "\uD48D\uC591\uC758 \uB8EC (\uC804\uCCB4)"
+    Description: "\uD018\uC2A4\uD2B8 \uBCF4\uC0C1\uC744 10% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 1
+    TargetType: 2
+    TargetClass: 0
+    TargetID: None
+    EffectType: 11
+    EffectValue: 10
+  - ID: RN_C_G_002
+    Name: "\uC218\uB835\uC758 \uB8EC (\uC804\uCCB4)"
+    Description: "\uC801 \uCC98\uCE58 \uBCF4\uC0C1\uC744 10% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 1
+    TargetType: 2
+    TargetClass: 0
+    TargetID: None
+    EffectType: 12
+    EffectValue: 10
+  - ID: RN_R_W_001
+    Name: "\uD798\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uACF5\uACA9\uB825\uC744 30% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 2
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 1
+    EffectValue: 30
+  - ID: RN_R_W_002
+    Name: "\uC0DD\uBA85\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uCCB4\uB825\uC744 30% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 2
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 0
+    EffectValue: 30
+  - ID: RN_R_A_001
+    Name: "\uD798\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uACF5\uACA9\uB825\uC744 30% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 2
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 1
+    EffectValue: 30
+  - ID: RN_R_A_002
+    Name: "\uC0DD\uBA85\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uCCB4\uB825\uC744 30% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 2
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 0
+    EffectValue: 30
+  - ID: RN_R_M_001
+    Name: "\uD798\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uACF5\uACA9\uB825\uC744 30% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 2
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 1
+    EffectValue: 30
+  - ID: RN_R_M_002
+    Name: "\uC0DD\uBA85\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uCCB4\uB825\uC744 30% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 2
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 0
+    EffectValue: 30
+  - ID: RN_R_G_001
+    Name: "\uD48D\uC591\uC758 \uB8EC (\uC804\uCCB4)"
+    Description: "\uD018\uC2A4\uD2B8 \uBCF4\uC0C1\uC744 30% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 2
+    TargetType: 2
+    TargetClass: 0
+    TargetID: None
+    EffectType: 11
+    EffectValue: 30
+  - ID: RN_R_G_002
+    Name: "\uC218\uB835\uC758 \uB8EC (\uC804\uCCB4)"
+    Description: "\uC801 \uCC98\uCE58 \uBCF4\uC0C1\uC744 30% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 2
+    TargetType: 2
+    TargetClass: 0
+    TargetID: None
+    EffectType: 12
+    EffectValue: 30
+  - ID: RN_E_W_001
+    Name: "\uD798\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uACF5\uACA9\uB825\uC744 90% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 1
+    EffectValue: 90
+  - ID: RN_E_W_002
+    Name: "\uC0DD\uBA85\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uCCB4\uB825\uC744 90% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 0
+    EffectValue: 90
+  - ID: RN_E_W_003
+    Name: "\uB9E4\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uCE58\uBA85\uD0C0 \uD655\uB960\uC744 0.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 5
+    EffectValue: 0.5
+  - ID: RN_E_W_004
+    Name: "\uB9D0\uBC8C\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uCE58\uBA85\uD0C0 \uBC30\uC728\uC744 1% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 6
+    EffectValue: 1
+  - ID: RN_E_W_005
+    Name: "\uACF5\uC18D\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uACF5\uACA9\uC18D\uB3C4\uB97C 0.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 2
+    EffectValue: 0.5
+  - ID: RN_E_W_006
+    Name: "\uCFE8\uAC10\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uCFE8\uD0C0\uC784 \uAC10\uC18C\uB97C 0.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 3
+    EffectValue: 0.5
+  - ID: RN_E_A_001
+    Name: "\uD798\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uACF5\uACA9\uB825\uC744 90% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 1
+    EffectValue: 90
+  - ID: RN_E_A_002
+    Name: "\uC0DD\uBA85\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uCCB4\uB825\uC744 90% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 0
+    EffectValue: 90
+  - ID: RN_E_A_003
+    Name: "\uB9E4\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uCE58\uBA85\uD0C0 \uD655\uB960\uC744 0.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 5
+    EffectValue: 0.5
+  - ID: RN_E_A_004
+    Name: "\uB9D0\uBC8C\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uCE58\uBA85\uD0C0 \uBC30\uC728\uC744 1% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 6
+    EffectValue: 1
+  - ID: RN_E_A_005
+    Name: "\uACF5\uC18D\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uACF5\uACA9\uC18D\uB3C4\uC744 0.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 2
+    EffectValue: 0.5
+  - ID: RN_E_A_006
+    Name: "\uCFE8\uAC10\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uCFE8\uD0C0\uC784 \uAC10\uC18C\uC744 0.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 3
+    EffectValue: 0.5
+  - ID: RN_E_M_001
+    Name: "\uD798\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uACF5\uACA9\uB825\uC744 90% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 1
+    EffectValue: 90
+  - ID: RN_E_M_002
+    Name: "\uC0DD\uBA85\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uCCB4\uB825\uC744 90% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 0
+    EffectValue: 90
+  - ID: RN_E_M_003
+    Name: "\uB9E4\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uCE58\uBA85\uD0C0 \uD655\uB960\uC744
+      0.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 5
+    EffectValue: 0.5
+  - ID: RN_E_M_004
+    Name: "\uB9D0\uBC8C\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uCE58\uBA85\uD0C0 \uBC30\uC728\uC744
+      1% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 6
+    EffectValue: 1
+  - ID: RN_E_M_005
+    Name: "\uACF5\uC18D\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uACF5\uACA9\uC18D\uB3C4\uB97C 0.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 2
+    EffectValue: 0.5
+  - ID: RN_E_M_006
+    Name: "\uCFE8\uAC10\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uCFE8\uD0C0\uC784 \uAC10\uC18C\uB97C
+      0.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 3
+    EffectValue: 0.5
+  - ID: RN_E_G_001
+    Name: "\uD48D\uC591\uC758 \uB8EC (\uC804\uCCB4)"
+    Description: "\uD018\uC2A4\uD2B8 \uBCF4\uC0C1\uC744 90% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 2
+    TargetClass: 0
+    TargetID: None
+    EffectType: 11
+    EffectValue: 90
+  - ID: RN_E_G_002
+    Name: "\uC218\uB835\uC758 \uB8EC (\uC804\uCCB4)"
+    Description: "\uC801 \uCC98\uCE58 \uBCF4\uC0C1\uC744 90% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 3
+    TargetType: 2
+    TargetClass: 0
+    TargetID: None
+    EffectType: 12
+    EffectValue: 90
+  - ID: RN_L_W_001
+    Name: "\uD798\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uACF5\uACA9\uB825\uC744 270% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 1
+    EffectValue: 270
+  - ID: RN_L_W_002
+    Name: "\uC0DD\uBA85\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uCCB4\uB825\uC744 270% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 0
+    EffectValue: 270
+  - ID: RN_L_W_003
+    Name: "\uB9E4\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uCE58\uBA85\uD0C0 \uD655\uB960\uC744 1.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 5
+    EffectValue: 1.5
+  - ID: RN_L_W_004
+    Name: "\uB9D0\uBC8C\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uCE58\uBA85\uD0C0 \uBC30\uC728\uC744 3% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 6
+    EffectValue: 3
+  - ID: RN_L_W_005
+    Name: "\uACF5\uC18D\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uACF5\uACA9\uC18D\uB3C4\uC744 1.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 2
+    EffectValue: 1.5
+  - ID: RN_L_W_006
+    Name: "\uCFE8\uAC10\uC758 \uB8EC (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC\uC758 \uCFE8\uD0C0\uC784 \uAC10\uC18C\uC744 1.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 1
+    TargetID: None
+    EffectType: 3
+    EffectValue: 1.5
+  - ID: RN_L_A_001
+    Name: "\uD798\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uACF5\uACA9\uB825\uC744 270% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 1
+    EffectValue: 270
+  - ID: RN_L_A_002
+    Name: "\uC0DD\uBA85\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uCCB4\uB825\uC744 270% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 0
+    EffectValue: 270
+  - ID: RN_L_A_003
+    Name: "\uB9E4\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uCE58\uBA85\uD0C0 \uD655\uB960\uC744 1.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 5
+    EffectValue: 1.5
+  - ID: RN_L_A_004
+    Name: "\uB9D0\uBC8C\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uCE58\uBA85\uD0C0 \uBC30\uC728\uC744 3% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 6
+    EffectValue: 3
+  - ID: RN_L_A_005
+    Name: "\uACF5\uC18D\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uACF5\uACA9\uC18D\uB3C4\uC744 1.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 2
+    EffectValue: 1.5
+  - ID: RN_L_A_006
+    Name: "\uCFE8\uAC10\uC758 \uB8EC (\uAD81\uC218)"
+    Description: "\uAD81\uC218\uC758 \uCFE8\uD0C0\uC784 \uAC10\uC18C\uC744 1.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 2
+    TargetID: None
+    EffectType: 3
+    EffectValue: 1.5
+  - ID: RN_L_M_001
+    Name: "\uD798\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uACF5\uACA9\uB825\uC744 270% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 1
+    EffectValue: 270
+  - ID: RN_L_M_002
+    Name: "\uC0DD\uBA85\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uCCB4\uB825\uC744 270% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 0
+    EffectValue: 270
+  - ID: RN_L_M_003
+    Name: "\uB9E4\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uCE58\uBA85\uD0C0 \uD655\uB960\uC744
+      1.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 5
+    EffectValue: 1.5
+  - ID: RN_L_M_004
+    Name: "\uB9D0\uBC8C\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uCE58\uBA85\uD0C0 \uBC30\uC728\uC744
+      3% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 6
+    EffectValue: 3
+  - ID: RN_L_M_005
+    Name: "\uACF5\uC18D\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uACF5\uACA9\uC18D\uB3C4\uC744 1.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 2
+    EffectValue: 1.5
+  - ID: RN_L_M_006
+    Name: "\uCFE8\uAC10\uC758 \uB8EC (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC\uC758 \uCFE8\uD0C0\uC784 \uAC10\uC18C\uC744
+      1.5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 3
+    TargetID: None
+    EffectType: 3
+    EffectValue: 1.5
+  - ID: RN_L_G_001
+    Name: "\uD48D\uC591\uC758 \uB8EC (\uC804\uCCB4)"
+    Description: "\uD018\uC2A4\uD2B8 \uBCF4\uC0C1\uC744 270% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 2
+    TargetClass: 0
+    TargetID: None
+    EffectType: 11
+    EffectValue: 270
+  - ID: RN_L_G_002
+    Name: "\uC218\uB835\uC758 \uB8EC (\uC804\uCCB4)"
+    Description: "\uC801 \uCC98\uCE58 \uBCF4\uC0C1\uC744 270% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 4
+    TargetType: 2
+    TargetClass: 0
+    TargetID: None
+    EffectType: 12
+    EffectValue: 270
+  - ID: RN_U_G_001
+    Name: "\uD798\uC758 \uB8EC (\uC804\uCCB4)"
+    Description: "\uC804\uCCB4 \uACF5\uACA9\uB825 \uC99D\uAC00"
+    Rarity: 5
+    TargetType: 2
+    TargetClass: 0
+    TargetID: None
+    EffectType: 1
+    EffectValue: 1000
+  - ID: RN_U_G_002
+    Name: "\uC0DD\uBA85\uC758 \uB8EC (\uC804\uCCB4)"
+    Description: "\uC804\uCCB4 \uC0DD\uBA85\uB825 \uC0C1\uC2B9"
+    Rarity: 5
+    TargetType: 2
+    TargetClass: 0
+    TargetID: None
+    EffectType: 0
+    EffectValue: 1000
+  - ID: RN_U_Q_001
+    Name: "\uD48D\uC591\uC758 \uB8EC (\uC804\uCCB4)"
+    Description: "\uD018\uC2A4\uD2B8 \uBCF4\uC0C1\uC744 50%\uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 5
+    TargetType: 2
+    TargetClass: 0
+    TargetID: None
+    EffectType: 11
+    EffectValue: 50
+  - ID: RN_U_Q_002
+    Name: "\uC218\uB835\uC758 \uB8EC (\uC804\uCCB4)"
+    Description: "\uC801 \uCC98\uCE58 \uBCF4\uC0C1\uC744 50% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Rarity: 5
+    TargetType: 2
+    TargetClass: 0
+    TargetID: None
+    EffectType: 12
+    EffectValue: 50
+  Artifact_IDs:
+  - ID: AR_C_G_001
+    Name: "\uD669\uB3D9 \uB2E8\uAC80"
+    Description: "\uACF5\uACA9\uB825\uC774 10%\uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 1
+    TargetType: 2
+    TargetClass: 0
+    EffectName: StatBoost
+    Value: 10
+    StatType: 1
+  - ID: AR_C_G_002
+    Name: "\uC0DD\uBA85\uC758 \uAD6C\uC2AC"
+    Description: "\uCD5C\uB300 \uCCB4\uB825\uC774 10% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 1
+    TargetType: 2
+    TargetClass: 0
+    EffectName: StatBoost
+    Value: 10
+    StatType: 0
+  - ID: AR_C_G_003
+    Name: "\uC790\uC218\uC815 \uBC18\uC9C0"
+    Description: "\uC77C\uBC18 \uBAAC\uC2A4\uD130\uB97C \uACF5\uACA9\uD560 \uB54C
+      \uD53C\uD574\uB7C9\uC774 10% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 1
+    TargetType: 2
+    TargetClass: 0
+    EffectName: StatBoost
+    Value: 10
+    StatType: 1
+  - ID: AR_C_G_004
+    Name: "\uB179\uC2A8 \uCC3D\uB0A0"
+    Description: "\uBCF4\uC2A4 \uBAAC\uC2A4\uD130\uB97C \uACF5\uACA9\uD560 \uB54C
+      \uD53C\uD574\uB7C9\uC774 10% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 1
+    TargetType: 2
+    TargetClass: 0
+    EffectName: StatBoost
+    Value: 10
+    StatType: 1
+  - ID: AR_C_G_005
+    Name: "\uC2E0\uC18D\uC758 \uC7A5\uD654"
+    Description: "\uC774\uB3D9\uC18D\uB3C4\uAC00 10% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 1
+    TargetType: 2
+    TargetClass: 0
+    EffectName: StatBoost
+    Value: 10
+    StatType: 8
+  - ID: AR_C_G_006
+    Name: "\uADF8\uBBD0\uB2EC \uB2E8\uAC80"
+    Description: "\uCE58\uBA85\uD0C0 \uD655\uB960\uC774 10% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 1
+    TargetType: 2
+    TargetClass: 0
+    EffectName: StatBoost
+    Value: 10
+    StatType: 5
+  - ID: AR_C_G_007
+    Name: "\uC624\uAC01\uC218\uC758 \uBFD4"
+    Description: "\uCE58\uBA85\uD0C0 \uD53C\uD574\uB7C9\uC774 10% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 1
+    TargetType: 2
+    TargetClass: 0
+    EffectName: StatBoost
+    Value: 10
+    StatType: 6
+  - ID: AR_C_G_008
+    Name: "\uBCBC\uB77D\uB098\uBB34 \uAC00\uC9C0"
+    Description: "\uC2A4\uD0AC \uD53C\uD574\uB7C9\uC774 10% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 1
+    TargetType: 2
+    TargetClass: 0
+    EffectName: StatBoost
+    Value: 10
+    StatType: 1
+  - ID: AR_C_G_009
+    Name: "\uB179\uC870\uC11D"
+    Description: "\uC77C\uBC18 \uACF5\uACA9\uC758 \uCFE8\uD0C0\uC784\uC774 10% \uAC10\uC18C\uD569\uB2C8\uB2E4."
+    Rarity: 1
+    TargetType: 2
+    TargetClass: 0
+    EffectName: StatBoost
+    Value: 10
+    StatType: 2
+  - ID: AR_C_G_010
+    Name: "\uBC14\uB78C\uB098\uBB34 \uC9C0\uD321\uC774"
+    Description: "\uC2A4\uD0AC\uC758 \uCFE8\uD0C0\uC784\uC774 10% \uAC10\uC18C\uD569\uB2C8\uB2E4."
+    Rarity: 1
+    TargetType: 2
+    TargetClass: 0
+    EffectName: StatBoost
+    Value: 10
+    StatType: 3
+  - ID: AR_R_G_008
+    Name: "\uCE7C\uB0A0\uBC8C\uB808\uC758 \uC6B0\uC0C1"
+    Description: "\uACF5\uACA9 \uC2DC \uC801\uC758 \uCCB4\uB825\uC774 20% \uBCF4\uB2E4
+      \uC801\uB2E4\uBA74 \uD53C\uD574\uB7C9\uC774 30% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 2
+    TargetType: 2
+    TargetClass: 0
+    EffectName: FinishDamage
+    Value: 30
+    StatType: 13
+  - ID: AR_N_G_001
+    Name: "\uACFC\uBD80\uD558\uB41C \uB9C8\uB825\uD68C\uB85C"
+    Description: "\uC2A4\uD0AC \uCFE8\uD0C0\uC784\uC774 20% \uAC10\uC18C\uD569\uB2C8\uB2E4."
+    Rarity: 2
+    TargetType: 2
+    TargetClass: 0
+    EffectName: StatBoost
+    Value: 20
+    StatType: 3
+  - ID: AR_N_G_002
+    Name: "\uC22B\uB3CC \uCE7C\uB0A0"
+    Description: "\uC77C\uBC18 \uACF5\uACA9 \uCFE8\uD0C0\uC784\uC774 20% \uAC10\uC18C\uD569\uB2C8\uB2E4."
+    Rarity: 2
+    TargetType: 2
+    TargetClass: 0
+    EffectName: StatBoost
+    Value: 20
+    StatType: 2
+  - ID: AR_N_G_003
+    Name: "\uC720\uB9AC \uB300\uD3EC"
+    Description: "\uACF5\uACA9\uB825\uC774 75% \uC99D\uAC00\uD558\uB294 \uB300\uC2E0
+      \uCCB4\uB825\uC774 25% \uAC10\uC18C\uD569\uB2C8\uB2E4."
+    Rarity: 2
+    TargetType: 2
+    TargetClass: 0
+    EffectName: GlassCannon
+    Value: 75
+    StatType: 13
+  - ID: AR_N_G_004
+    Name: "\uC720\uB9AC \uBC29\uD328"
+    Description: "\uACF5\uACA9\uB825\uC774 25% \uAC10\uC18C\uD558\uB294 \uB300\uC2E0
+      \uCCB4\uB825\uC774 75% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 2
+    TargetType: 2
+    TargetClass: 0
+    EffectName: GlassShield
+    Value: 75
+    StatType: 13
+  - ID: AR_N_G_005
+    Name: "\uC0DD\uBA85 \uD68C\uBCF5"
+    Description: "5\uCD08\uB9C8\uB2E4 \uD30C\uD2F0\uAC00 \uCD5C\uB300 \uCCB4\uB825\uC758
+      3%\uB9CC\uD07C \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+    Rarity: 2
+    TargetType: 2
+    TargetClass: 0
+    EffectName: HpRegen
+    Value: 3
+    StatType: 13
+  - ID: AR_R_G_003
+    Name: "\uCCAD\uB85D\uC0C9 \uC218\uC815"
+    Description: "1\uBC88 \uCE78\uC5D0 \uC704\uCE58\uD55C \uCE90\uB9AD\uD130\uC758
+      \uC0DD\uBA85\uB825\uC774 50% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 2
+    TargetType: 2
+    TargetClass: 0
+    EffectName: Row1HPBoost
+    Value: 50
+    StatType: 13
+  - ID: AR_R_G_005
+    Name: "\uC218\uD638\uC758 \uB098\uBB34 \uBC29\uD328"
+    Description: "2,3,4\uBC88 \uCE78\uC5D0 \uC704\uCE58\uD55C \uCE90\uB9AD\uD130\uB4E4\uC758
+      \uC0DD\uBA85\uB825\uC774 30% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 2
+    TargetType: 2
+    TargetClass: 0
+    EffectName: Row234HPBoost
+    Value: 30
+    StatType: 13
+  - ID: AR_E_G_010
+    Name: "\uBF08\uC774\uBE68 \uBAA9\uAC78\uC774"
+    Description: "\uACF5\uACA9 \uC2DC \uB300\uC0C1\uC758 \uCCB4\uB825\uC774 \uCD5C\uB300\uCE58\uC77C
+      \uACBD\uC6B0 \uCE58\uBA85\uD0C0 \uD655\uB960\uC774 100%\uB85C \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 3
+    TargetType: 2
+    TargetClass: 0
+    EffectName: CritOnFullHP
+    Value: 50
+    StatType: 13
+  - ID: AR_E_G_003
+    Name: "\uD761\uD608\uADC0\uC758 \uCC3B\uC794"
+    Description: "\uACF5\uACA9 \uC2DC \uAC00\uD55C \uD53C\uD574\uB7C9\uC758 5%\uB9CC\uD07C
+      \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+    Rarity: 3
+    TargetType: 2
+    TargetClass: 0
+    EffectName: LifeSteal
+    Value: 5
+    StatType: 13
+  - ID: AR_E_G_006
+    Name: "\uD0DC\uC591\uC758 \uBB38\uC7A5"
+    Description: "\uD53C\uACA9\uC2DC \uBC1B\uC740 \uD53C\uD574\uB7C9\uC758 10%\uB9CC\uD07C
+      \uBC18\uC0AC\uD569\uB2C8\uB2E4."
+    Rarity: 3
+    TargetType: 2
+    TargetClass: 0
+    EffectName: ThornArmor
+    Value: 10
+    StatType: 13
+  - ID: AR_E_G_001
+    Name: "\uC608\uC5B8\uC758 \uC591\uD53C\uC9C0"
+    Description: "\uB3C4\uB2EC\uD55C \uAC70\uB9AC\uC5D0 \uBE44\uB840\uD558\uC5EC
+      1km\uB9C8\uB2E4 0.1%\uB9CC\uD07C \uCD5C\uB300 \uCCB4\uB825\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 2
+    TargetType: 2
+    TargetClass: 0
+    EffectName: DistanceMaxHP
+    Value: 0.1
+    StatType: 13
+  - ID: AR_E_G_005
+    Name: "\uC601\uC0AC\uC758 \uBCF4\uC8FC"
+    Description: "\uC801 \uCC98\uCE58 \uC2DC \uD30C\uD2F0 \uC804\uC6D0\uC774 \uAC01\uC790
+      \uCD5C\uB300 \uCCB4\uB825\uC758 1%\uB9CC\uD07C \uD68C\uBCF5\uB429\uB2C8\uB2E4."
+    Rarity: 2
+    TargetType: 2
+    TargetClass: 0
+    EffectName: TeamHealOnKill
+    Value: 1
+    StatType: 13
+  - ID: AR_E_G_002
+    Name: "\uC790\uC218\uC815 \uC5F0\uAF43"
+    Description: "\uC2A4\uD0AC \uC0AC\uC6A9 \uC2DC 30% \uD655\uB960\uB85C \uD574\uB2F9
+      \uC2A4\uD0AC\uC758 \uCFE8\uD0C0\uC784\uC774 \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4."
+    Rarity: 3
+    TargetType: 2
+    TargetClass: 0
+    EffectName: ResetSkill
+    Value: 30
+    StatType: 13
+  - ID: AR_L_G_002
+    Name: "\uC6A9\uC758 \uC2EC\uC7A5"
+    Description: "\uD604\uC7AC \uC783\uC740 \uCCB4\uB825\uBE44\uC728 1%\uB9C8\uB2E4
+      \uACF5\uACA9\uB825\uC774 1.5% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 4
+    TargetType: 2
+    TargetClass: 0
+    EffectName: BerserkerRage
+    Value: 1.5
+    StatType: 13
+  - ID: AR_L_G_003
+    Name: "\uC758\uC2DD\uC6A9 \uB2E8\uAC80"
+    Description: "\uBCF4\uC2A4 \uCC98\uCE58\uC2DC \uC774\uB3D9\uC18D\uB3C4\uAC00
+      20% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 4
+    TargetType: 2
+    TargetClass: 0
+    EffectName: KillBossSpeedBoost
+    Value: 20
+    StatType: 13
+  - ID: AR_L_G_004
+    Name: "\uACF5\uD5C8\uC758 \uAECD\uC9C8"
+    Description: "\uACF5\uACA9 \uC2DC 5%\uC758 \uD655\uB960\uB85C 10\uBC30\uC758
+      \uD53C\uD574\uB97C \uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 4
+    TargetType: 2
+    TargetClass: 0
+    EffectName: LuckyStrike
+    Value: 5
+    StatType: 13
+  - ID: AR_L_G_005
+    Name: "\uC218\uD638\uC758 \uBC29\uD328"
+    Description: "\uD30C\uD2F0 \uC804\uCCB4\uAC00 10\uCD08\uB9C8\uB2E4 \uD55C \uBC88,
+      1\uD68C\uC758 \uACF5\uACA9\uC744 \uB9C9\uC544\uC8FC\uB294 \uBCF4\uD638\uB9C9\uC744
+      \uC5BB\uC2B5\uB2C8\uB2E4."
+    Rarity: 4
+    TargetType: 2
+    TargetClass: 0
+    EffectName: RegenShield
+    Value: 10
+    StatType: 13
+  - ID: AR_L_W_002
+    Name: "\uAE30\uC774\uD55C \uC6B0\uC0C1 (\uC804\uC0AC)"
+    Description: "\uC804\uC0AC \uD074\uB798\uC2A4\uC758 \uACF5\uACA9\uB825\uC774
+      100% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 1
+    EffectName: StatBoost
+    Value: 100
+    StatType: 1
+  - ID: AR_L_A_001
+    Name: "\uAE30\uC774\uD55C \uC6B0\uC0C1 (\uAD81\uC218)"
+    Description: "\uAD81\uC218 \uD074\uB798\uC2A4\uC758 \uACF5\uACA9\uB825\uC774
+      100% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 2
+    EffectName: StatBoost
+    Value: 100
+    StatType: 1
+  - ID: AR_L_M_001
+    Name: "\uAE30\uC774\uD55C \uC6B0\uC0C1 (\uB9C8\uBC95\uC0AC)"
+    Description: "\uB9C8\uBC95\uC0AC \uD074\uB798\uC2A4\uC758 \uACF5\uACA9\uB825\uC774
+      100% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 4
+    TargetType: 3
+    TargetClass: 3
+    EffectName: StatBoost
+    Value: 100
+    StatType: 1
+  - ID: AR_U_W_001
+    Name: "\uC6A9\uAE30\uC758 \uC9D5\uD45C"
+    Description: "\uC804\uC0AC \uD074\uB798\uC2A4\uC758 \uCD5C\uC885 \uD53C\uD574\uB7C9\uC774
+      400% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 5
+    TargetType: 3
+    TargetClass: 1
+    EffectName: StatBoost
+    Value: 400
+    StatType: 9
+  - ID: AR_U_A_001
+    Name: "\uC232 \uC9C0\uD0B4\uC774\uC758 \uD39C\uB358\uD2B8"
+    Description: "\uAD81\uC218 \uD074\uB798\uC2A4\uC758 \uCD5C\uC885 \uD53C\uD574\uB7C9\uC774
+      400% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 5
+    TargetType: 3
+    TargetClass: 2
+    EffectName: StatBoost
+    Value: 400
+    StatType: 9
+  - ID: AR_U_M_001
+    Name: "\uBE44\uC804\uC758 \uD575"
+    Description: "\uB9C8\uBC95\uC0AC \uD074\uB798\uC2A4\uC758 \uCD5C\uC885 \uD53C\uD574\uB7C9\uC774
+      400% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    Rarity: 5
+    TargetType: 3
+    TargetClass: 3
+    EffectName: StatBoost
+    Value: 400
+    StatType: 9
+  Skill_IDs:
+  - ID: SK_1_001
+    Name: "\uAC15\uD0C0"
+    Description: "\uC801 \uD558\uB098\uB97C \uAC15\uD558\uAC8C \uB0B4\uB9AC\uCCD0
+      200% \uD53C\uD574\uB97C \uC8FC\uACE0, 30% \uD655\uB960\uB85C 1\uCD08\uAC04
+      \uAE30\uC808\uC2DC\uD0A8\uB2E4."
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 3
+    EffectData1: Damage:Enemy:200:0:None
+    EffectData2: Debuff:Enemy:0:30:Stun
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_1_002
+    Name: "\uBC29\uD328 \uAC15\uD0C0"
+    Description: "\uC804\uBC29 2\uCE78 \uC774\uB0B4\uC758 \uBAA8\uB4E0 \uC801\uC5D0\uAC8C
+      150% \uD53C\uD574, 1\uCE78 \uBC00\uCCD0\uB0C4"
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 4
+    EffectData1: Damage:AllEnemies:150:0:None
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_1_003
+    Name: "\uC6A9\uC0AC\uC758 \uD568\uC131"
+    Description: "\uC544\uAD70 \uC804\uCCB4\uC758 \uACF5\uACA9\uB825 15% \uC99D\uAC00
+      (8\uCD08 \uC9C0\uC18D)."
+    Type: 1
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 12
+    EffectData1: Buff:AllAllies:15:8:AtkUp
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_1_004
+    Name: "\uC2A4\uD2F8\uB808\uD1A0"
+    Description: "1\uCE78 \uAC70\uB9AC\uC758 \uC801\uC5D0\uAC8C 180% \uD53C\uD574,
+      \uCCB4\uB825\uC774 20% \uC774\uD558\uC77C \uACBD\uC6B0 300% \uD53C\uD574."
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 3
+    EffectData1: Damage:Enemy:180:0:None
+    EffectData2: Damage:Enemy:120:0:None
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_1_005
+    Name: "\uADF8\uB9BC\uC790 \uC77C\uACA9"
+    Description: "2\uCE78 \uAC70\uB9AC\uAE4C\uC9C0\uC758 \uC801\uC5D0\uAC8C 200%
+      \uD53C\uD574, 3\uCD08\uAC04 \uCE58\uBA85\uD0C0 \uC800\uD56D 15% \uAC10\uC18C."
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 4
+    EffectData1: Damage:AllEnemies:200:0:None
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_1_006
+    Name: "\uBE14\uB808\uC774\uB4DC \uB7EC\uC2DC"
+    Description: "\uC804\uBC29 3\uCE78 \uB0B4 \uC801\uC5D0\uAC8C 150% \uD53C\uD574,
+      1\uCD08\uAC04 \uC774\uB3D9 \uBD88\uAC00 \uBD80\uC5EC."
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 5
+    EffectData1: Damage:AllEnemies:150:0:None
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_1_007
+    Name: "\uD654\uC5FC \uD3ED\uBC1C"
+    Description: "\uC751\uCD95\uB41C \uD654\uC5FC \uC5D0\uB108\uC9C0\uB97C \uD55C\uC21C\uAC04\uC5D0
+      \uD3ED\uBC1C\uC2DC\uCF1C 200% \uD53C\uD574\uB97C \uC900\uB2E4"
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 15
+    EffectData1: Damage:Enemy:200:0:None
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_1_008
+    Name: "\uD654\uC5FC \uBD84\uCD9C"
+    Description: "\uB545\uC18D\uC758 \uB9C8\uB825\uC744 \uD3ED\uBC1C\uC2DC\uCF1C
+      \uB2E4\uC218\uC758 \uD654\uC5FC \uAE30\uB465\uC744 \uBD84\uCD9C\uC2DC\uCF1C
+      180% \uD53C\uD574\uB97C \uC900\uB2E4"
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 16
+    EffectData1: Damage:AllEnemies:180:0:None
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_1_009
+    Name: "\uBE59\uACB0"
+    Description: "\uC801\uC744 \uCC28\uAC00\uC6B4 \uB0C9\uAE30\uB85C \uC5BC\uB824
+      120% \uB370\uBBF8\uC9C0\uB97C \uC900\uB2E4."
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 17
+    EffectData1: Damage:Enemy:120:0:None
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_1_010
+    Name: "\uC808\uB300\uC601\uB3C4"
+    Description: "\uAD11\uC5ED \uBC94\uC704 \uB0B4 \uBAA8\uB4E0 \uC801\uC5D0\uAC8C
+      150% \uB0C9\uAE30 \uD53C\uD574"
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 18
+    EffectData1: Damage:Enemy:150:0:None
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_1_011
+    Name: "\uB9F9\uACF5"
+    Description: "\uC790\uC2E0\uC758 \uCCB4\uB825\uC774 50% \uC774\uD558\uC77C \uB54C,
+      \uD53C\uD574\uB7C9 2\uBC30."
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 19
+    EffectData1: Damage:Enemy:150:0:None
+    EffectData2: Damage:Enemy:150:0:None
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_2_001
+    Name: "\uC2E0\uC18D \uC0AC\uACA9"
+    Description: "4\uCE78 \uC774\uB0B4\uC758 \uC801 \uD558\uB098\uC5D0\uAC8C 120%
+      \uD53C\uD574, \uCE58\uBA85\uD0C0 \uBC1C\uC0DD \uC2DC \uCFE8\uD0C0\uC784 1\uCD08
+      \uAC10\uC18C."
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 20
+    EffectData1: Damage:Enemy:120:0:None
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_2_002
+    Name: "\uAD00\uD1B5 \uC0AC\uACA9"
+    Description: "\uC9C1\uC120 4\uCE78 \uBC94\uC704\uC758 \uBAA8\uB4E0 \uC801\uC5D0\uAC8C
+      200% \uD53C\uD574, 3\uCD08\uAC04 \uACF5\uACA9\uB825 10% \uAC10\uC18C."
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 21
+    EffectData1: Damage:AllEnemies:200:0:None
+    EffectData2: Debuff:Enemy:10:5:AtkDown
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_2_003
+    Name: "\uB2E4\uC911 \uD654\uC0B4"
+    Description: "4\uCE78 \uB0B4\uC758 \uBAA8\uB4E0 \uC801\uC5D0\uAC8C \uCD1D 250%
+      \uD53C\uD574."
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 22
+    EffectData1: Damage:AllEnemies:250:0:None
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_2_004
+    Name: "\uB3C5\uC218\uB9AC\uC758 \uC9D1\uC911"
+    Description: "\uC544\uAD70 \uC804\uCCB4\uC758 \uCE58\uBA85\uD0C0 \uD655\uB960
+      15%, \uACF5\uACA9 \uC18D\uB3C4 20% \uC99D\uAC00 (6\uCD08)."
+    Type: 1
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 23
+    EffectData1: Buff:AllAllies:15:6:CritChanceUp
+    EffectData2: Buff:AllAllies:20:6:AtkSpeedUp
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_2_005
+    Name: "\uAD11\uC804\uC0AC\uC758 \uC678\uCE68"
+    Description: "\uBD84\uB178\uB97C \uD3ED\uBC1C\uC2DC\uCF1C 6\uCD08 \uB3D9\uC548
+      \uACF5\uACA9\uC18D\uB3C4 40% \uC99D\uAC00, \uBC29\uC5B4\uB825 20% \uAC10\uC18C."
+    Type: 4
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 24
+    EffectData1: Buff:Self:40:6:AtkSpeedUp
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_2_006
+    Name: "\uC9D1\uC911"
+    Description: "\uC815\uC2E0\uC744 \uC9D1\uC911\uD574 8\uCD08\uAC04 \uCE58\uBA85\uD0C0
+      \uD655\uB960 +30%, \uC2A4\uD0AC \uCFE8\uD0C0\uC784 \uAC10\uC18C +20%."
+    Type: 4
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 25
+    EffectData1: Buff:AllAllies:15:6:CritChanceUp
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_2_007
+    Name: "\uC6A9\uAE30\uC758 \uD568\uC131"
+    Description: "\uC544\uAD70 \uC804\uCCB4\uC758 \uACF5\uACA9\uB825\uACFC \uBC29\uC5B4\uB825\uC744
+      15% \uC0C1\uC2B9\uC2DC\uD0A8\uB2E4."
+    Type: 1
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 26
+    EffectData1: Buff:AllAllies:15:6:AtkUp
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_2_008
+    Name: "\uC2E0\uC131\uD55C \uBCF4\uD638"
+    Description: "\uC544\uAD70 \uC804\uCCB4\uC5D0\uAC8C 6\uCD08\uAC04 \uD53C\uD574
+      \uAC10\uC18C 20% \uD6A8\uACFC\uB97C \uBD80\uC5EC\uD55C\uB2E4."
+    Type: 4
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 27
+    EffectData1: Buff:AllAllies:15:6:AtkUp
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_2_009
+    Name: "\uC18D\uBC15\uC758 \uC0AC\uC2AC"
+    Description: "\uACF5\uACA9\uC18D\uB3C4\uB97C 30% \uAC10\uC18C\uC2DC\uD0A8\uB2E4."
+    Type: 2
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 29
+    EffectData1: Debuff:Enemy:30:5:AtkDown
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_2_010
+    Name: "\uC5B4\uB460\uC758 \uC800\uC8FC"
+    Description: "\uC801 \uC804\uCCB4\uC758 \uACF5\uACA9\uB825 -20%, \uBC29\uC5B4\uB825
+      -20%."
+    Type: 2
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 30
+    EffectData1: Debuff:AllEnemies:20:5:AtkDown
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_2_011
+    Name: "\uCD95\uBCF5\uC758 \uBC14\uB78C"
+    Description: "\uBB34\uC791\uC704 \uC544\uAD70 1\uBA85\uC758 \uACF5\uACA9\uC18D\uB3C4\uB97C
+      5\uCD08\uAC04 25% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    Type: 1
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 31
+    EffectData1: Buff:Ally:25:5:AtkSpeedUp
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_2_012
+    Name: "\uD68C\uBCF5\uC758 \uBE5B"
+    Description: "\uBB34\uC791\uC704 \uC544\uAD70 1\uBA85\uC744 \uCE58\uC720\uD558\uACE0
+      5\uCD08\uAC04 \uBC29\uC5B4\uB825 20% \uC99D\uAC00."
+    Type: 1
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 32
+    EffectData1: Buff:Ally:25:5:AtkSpeedUp
+    EffectData2: Buff:Ally:50:0:HP
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_3_001
+    Name: "\uD654\uC5FC\uC758 \uC7A5\uBCBD"
+    Description: "\uC804\uBC29 3\uCE78 \uBC94\uC704\uC5D0 \uBD88\uAE38\uC744 \uC0DD\uC131,
+      4\uCD08\uAC04 \uB9E4\uCD08 60% \uD53C\uD574."
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 33
+    EffectData1: Damage:AllEnemies:250:0:None
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_3_002
+    Name: "\uC11C\uB9AC \uD654\uC0B4"
+    Description: "\uB2E8\uC77C \uC801\uC5D0\uAC8C 200% \uD53C\uD574, 3\uCD08\uAC04
+      \uACF5\uACA9\uB825 15% \uAC10\uC18C \uB514\uBC84\uD504"
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 34
+    EffectData1: Damage:Enemy:200:0:None
+    EffectData2: Debuff:Enemy:15:3:AtkDown
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_3_003
+    Name: "\uBE44\uC804 \uD3ED\uBC1C"
+    Description: "\uC804\uBC29 2\uCE78 \uBC94\uC704 \uC801\uC5D0\uAC8C 220% \uD53C\uD574,
+      1\uCD08 \uAE30\uC808."
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 35
+    EffectData1: Damage:AllEnemies:250:0:None
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_3_004
+    Name: "\uBA54\uD14C\uC624 \uD3F4"
+    Description: "\uD558\uB298\uC5D0\uC11C \uAC70\uB300\uD55C \uC720\uC131\uC744
+      \uC18C\uD658\uD558\uC5EC \uB113\uC740 \uBC94\uC704\uC758 \uC801\uB4E4\uC5D0\uAC8C
+      \uB9C9\uB300\uD55C \uD53C\uD574\uB97C \uC900\uB2E4."
+    Type: 0
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 36
+    EffectData1: Damage:AllEnemies:250:0:None
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 
+  - ID: SK_3_005
+    Name: "\uBE44\uC804 \uBCF4\uD638\uB9C9"
+    Description: "\uC544\uAD70 \uC804\uCCB4\uC5D0\uAC8C \uCD5C\uB300 \uCCB4\uB825\uC758
+      30% \uBCF4\uD638\uB9C9 (5\uCD08)."
+    Type: 1
+    IsPassive: 0
+    TriggerEvent: 0
+    CoolDown: 37
+    EffectData1: Damage:AllAllies:250:0:None
+    EffectData2: 
+    EffectData3: 
+    EffectData4: 
+    EffectData5: 

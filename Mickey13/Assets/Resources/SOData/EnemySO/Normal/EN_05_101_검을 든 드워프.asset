@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294e092280e3b63429c8667ec6cccc39, type: 3}
+  m_Name: "EN_05_101_\uAC80\uC744 \uB4E0 \uB4DC\uC6CC\uD504"
+  m_EditorClassIdentifier: 
+  id: EN_05_101
+  name: "\uAC80\uC744 \uB4E0 \uB4DC\uC6CC\uD504"
+  dataType: 1
+  sprite: {fileID: 0}
+  description: "\uB300\uC7A5\uC7A5\uC774 \uC77C\uC871\uC778 \uB4DC\uC6CC\uD504\uC785\uB2C8\uB2E4.
+    \uB2E8\uC870\uD558\uACE0 \uC788\uB358 \uAC80\uC744 \uB4E4\uACE0 \uAE09\uD558\uAC8C
+    \uB098\uC654\uC2B5\uB2C8\uB2E4."
+  baseStat: {fileID: 11400000, guid: f957e809fb5e99d4981f8e77ca54cdb9, type: 2}
+  attackType: 1
+  enemyType: 0
+  enemySize: 0
+  levelUpHP: 1.266
+  levelUpATK: 1.266
+  dropTable: {fileID: 11400000, guid: 86d7a300cb26a49459d65e613228d352, type: 2}

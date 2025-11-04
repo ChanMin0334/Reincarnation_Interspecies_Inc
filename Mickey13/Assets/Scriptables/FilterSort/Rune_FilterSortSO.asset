@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b8ec8bbea70384185b5a8e1cc4df15, type: 3}
+  m_Name: Rune_FilterSortSO
+  m_EditorClassIdentifier: 
+  filterCategories:
+  - filterType: 2
+    displayName: "\uD76C\uADC0\uB3C4"
+    options:
+    - key: Common
+      displayName: "\uCEE4\uBA3C"
+    - key: Rare
+      displayName: "\uB808\uC5B4"
+    - key: Epic
+      displayName: "\uC5D0\uD53D"
+    - key: Legendary
+      displayName: "\uB808\uC804\uB354\uB9AC"
+    - key: Unique
+      displayName: "\uC720\uB2C8\uD06C"
+  sortCategories:
+  - sortType: 2
+    displayName: "\uD76C\uADC0\uB3C4"
+  - sortType: 1
+    displayName: "\uC18C\uC9C0\uAC2F\uC218"

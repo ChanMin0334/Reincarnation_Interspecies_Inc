@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6310537917a1cfb40ad0eb0aca35b43f, type: 3}
+  m_Name: "SK_1_011_\uB9F9\uACF5"
+  m_EditorClassIdentifier: 
+  id: SK_1_011
+  name: "\uB9F9\uACF5"
+  dataType: 4
+  sprite: {fileID: 21300000, guid: 884efd3855deb9047bdb0c3439c4fadc, type: 3}
+  description: "\uC801\uC5D0\uAC8C 150% \uD53C\uD574\uB97C \uC900\uB2E4. \uC790\uC2E0\uC758
+    \uCCB4\uB825\uC774 50% \uC774\uD558\uC77C \uB54C, \uD53C\uD574\uB7C9 2\uBC30."
+  coolDown: 6
+  type: 0
+  isPassive: 0
+  triggerEvent: 0
+  effects:
+  - effectType: 0
+    targetType: 3
+    power: 150
+    duration: 0
+    buffType: 0
+    effectDescription: '[Damage] Enemy 150% 0s None'
+    condition: 0
+    conditionValue: 0
+    tickInterval: 0
+    effectData:
+      effectPrefab: {fileID: 2327775828762301007, guid: 2b79ef1dec3f24d8385ab005a69eec16, type: 3}
+      triggerType: 0
+      duration: 0
+      animSpeed: 1
+      moveSpeed: 10
+  - effectType: 0
+    targetType: 3
+    power: 150
+    duration: 0
+    buffType: 0
+    effectDescription: '[Damage] Enemy 150% 0s None'
+    condition: 0
+    conditionValue: 0
+    tickInterval: 0
+    effectData:
+      effectPrefab: {fileID: 0}
+      triggerType: 0
+      duration: 0
+      animSpeed: 1
+      moveSpeed: 10

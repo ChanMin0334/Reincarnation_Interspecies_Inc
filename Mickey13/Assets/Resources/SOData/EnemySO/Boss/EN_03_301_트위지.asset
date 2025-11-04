@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294e092280e3b63429c8667ec6cccc39, type: 3}
+  m_Name: "EN_03_301_\uD2B8\uC704\uC9C0"
+  m_EditorClassIdentifier: 
+  id: EN_03_301
+  name: "\uD2B8\uC704\uC9C0"
+  dataType: 1
+  sprite: {fileID: 0}
+  description: "\uB7AB\uB9E8\uB4E4\uC758 \uC655, \uD2B8\uC704\uC9C0\uC785\uB2C8\uB2E4.
+    \uC5B4\uB290\uB0A0 \uD558\uC218\uB3C4\uC5D0 \uB5A0\uB0B4\uB824 \uC628 \uC11D\uAD81\uC744
+    \uC8FC\uC6CC\uC11C, \uC0AC\uC6A9\uD558\uB294 \uBC95\uC744 \uC775\uD614\uACE0
+    \uADF8\uB294 \uB7AB\uB9E8\uB4E4\uC758 \uC655\uC774 \uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+  baseStat: {fileID: 11400000, guid: c49f9e93dffca9d4aa22f8822b0a3205, type: 2}
+  attackType: 2
+  enemyType: 2
+  enemySize: 1
+  levelUpHP: 1.266
+  levelUpATK: 1.266
+  dropTable: {fileID: 11400000, guid: 210d2e5bcbb9ebb41860925915665889, type: 2}

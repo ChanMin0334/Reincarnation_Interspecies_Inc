@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6310537917a1cfb40ad0eb0aca35b43f, type: 3}
+  m_Name: "SK_2_002_\uAD00\uD1B5 \uC0AC\uACA9"
+  m_EditorClassIdentifier: 
+  id: SK_2_002
+  name: "\uAD00\uD1B5 \uC0AC\uACA9"
+  dataType: 4
+  sprite: {fileID: 21300000, guid: 162137559254dbd45962018bd116596c, type: 3}
+  description: "\uC9C1\uC120 4\uCE78 \uBC94\uC704\uC758 \uBAA8\uB4E0 \uC801\uC5D0\uAC8C
+    200% \uD53C\uD574, 3\uCD08\uAC04 \uACF5\uACA9\uB825 10% \uAC10\uC18C."
+  coolDown: 8
+  type: 0
+  isPassive: 0
+  triggerEvent: 0
+  effects:
+  - effectType: 0
+    targetType: 4
+    power: 200
+    duration: 0
+    buffType: 0
+    effectDescription: '[Damage] AllEnemies 200% 0s None'
+    condition: 0
+    conditionValue: 0
+    tickInterval: 0
+    effectData:
+      effectPrefab: {fileID: 8287965061745171880, guid: 61b9c5ea4797d4183b5da587c8142a19, type: 3}
+      triggerType: 0
+      duration: 0
+      animSpeed: 1
+      moveSpeed: 12
+  - effectType: 3
+    targetType: 4
+    power: 10
+    duration: 3
+    buffType: 2
+    effectDescription: '[Debuff] Enemy 10% 5s AtkDown'
+    condition: 0
+    conditionValue: 0
+    tickInterval: 0
+    effectData:
+      effectPrefab: {fileID: 0}
+      triggerType: 0
+      duration: 0
+      animSpeed: 1
+      moveSpeed: 10

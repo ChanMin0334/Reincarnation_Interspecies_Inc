@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6310537917a1cfb40ad0eb0aca35b43f, type: 3}
+  m_Name: "SK_2_007_\uC6A9\uAE30\uC758 \uD568\uC131"
+  m_EditorClassIdentifier: 
+  id: SK_2_007
+  name: "\uC6A9\uAE30\uC758 \uD568\uC131"
+  dataType: 4
+  sprite: {fileID: 21300000, guid: a3b9e8a3bbf60824091eb0e0d30ee725, type: 3}
+  description: "\uC544\uAD70 \uC804\uCCB4\uC758 \uACF5\uACA9\uB825 15%\uB97C \uC99D\uAC00\uC2DC\uD0A4\uACE0
+    \uBC1B\uB294\uD53C\uD574 15% 6\uCD08\uAC04 \uAC10\uC18C\uC2DC\uD0A8\uB2E4."
+  coolDown: 12
+  type: 1
+  isPassive: 0
+  triggerEvent: 0
+  effects:
+  - effectType: 2
+    targetType: 2
+    power: 15
+    duration: 6
+    buffType: 1
+    effectDescription: '[Buff] AllAllies 15% 6s AtkUp'
+    condition: 0
+    conditionValue: 0
+    tickInterval: 0
+    effectData:
+      effectPrefab: {fileID: 6754427205566285819, guid: 4499a8a10b2a647058614dcad128e33e, type: 3}
+      triggerType: 0
+      duration: 0
+      animSpeed: 1
+      moveSpeed: 10
+  - effectType: 2
+    targetType: 2
+    power: 15
+    duration: 6
+    buffType: 15
+    effectDescription: '[Buff] AllAllies 15% 6s AtkUp'
+    condition: 0
+    conditionValue: 0
+    tickInterval: 0
+    effectData:
+      effectPrefab: {fileID: 0}
+      triggerType: 1
+      duration: 0
+      animSpeed: 1
+      moveSpeed: 10

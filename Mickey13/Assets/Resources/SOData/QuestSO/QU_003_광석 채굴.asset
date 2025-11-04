@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c1cd843d31156d40a7b57c9134012e1, type: 3}
+  m_Name: "QU_003_\uAD11\uC11D \uCC44\uAD74"
+  m_EditorClassIdentifier: 
+  id: QU_003
+  name: "\uAD11\uC11D \uCC44\uAD74"
+  dataType: 7
+  sprite: {fileID: 21300000, guid: 94dc3e0be9a74184b972666c052aca93, type: 3}
+  description: 
+  questRequirement: 60
+  questDuration: 10
+  questUpgradeCost:
+    serializedValue: 1446
+  questReward:
+    serializedValue: 646
+  upgradeMult: 1.2086
+  rewardMult: 1.1484

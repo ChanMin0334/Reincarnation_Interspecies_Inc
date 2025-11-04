@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f96f992c68d7be40ad326d4c6c705e6, type: 3}
+  m_Name: StatDatabaseSO
+  m_EditorClassIdentifier: 
+  statDefinitions:
+  - type: 0
+    statName: "\uCCB4\uB825"
+    category: 0
+    statIcon: {fileID: 21300000, guid: a8766515d4b25a94e992548d3a549e51, type: 3}
+    valueSuffix: '%'
+  - type: 1
+    statName: "\uACF5\uACA9\uB825"
+    category: 0
+    statIcon: {fileID: 21300000, guid: 4a3ecf5f50174a54782bfdf0d60cf100, type: 3}
+    valueSuffix: '%'
+  - type: 2
+    statName: "\uAE30\uBCF8\uACF5\uACA9 \uCFE8\uD0C0\uC784"
+    category: 0
+    statIcon: {fileID: 21300000, guid: 6d89c73e68ecea7428b339b33c57a97e, type: 3}
+    valueSuffix: '%'
+  - type: 3
+    statName: "\uC2A4\uD0AC \uCFE8\uD0C0\uC784"
+    category: 0
+    statIcon: {fileID: 21300000, guid: f4cd627f922b38b4196d5ae7d1d5e605, type: 3}
+    valueSuffix: '%'
+  - type: 4
+    statName: "\uC0AC\uAC70\uB9AC"
+    category: 0
+    statIcon: {fileID: 21300000, guid: 85a7c70f456ff1f4f9869b087b719c82, type: 3}
+    valueSuffix: '%'
+  - type: 5
+    statName: "\uCE58\uBA85\uD0C0 \uD655\uB960"
+    category: 0
+    statIcon: {fileID: 21300000, guid: 4406e5a7187b3b24398f09cab7467f91, type: 3}
+    valueSuffix: '%'
+  - type: 6
+    statName: "\uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0"
+    category: 0
+    statIcon: {fileID: 21300000, guid: a67c6ec9a0c9da24fb96892c2a6ea433, type: 3}
+    valueSuffix: '%'
+  - type: 7
+    statName: "\uACF5\uACA9 \uBC94\uC704"
+    category: 0
+    statIcon: {fileID: 21300000, guid: 2a8d1cf2fe4c80e4a95973caa68b6202, type: 3}
+    valueSuffix: '%'
+  - type: 11
+    statName: "\uB178\uC5ED  \uD68D\uB4DD \uACE8\uB4DC"
+    category: 1
+    statIcon: {fileID: 0}
+    valueSuffix: '%'
+  - type: 12
+    statName: "\uC0AC\uB0E5 \uD68D\uB4DD \uACE8\uB4DC"
+    category: 1
+    statIcon: {fileID: 0}
+    valueSuffix: '%'
+  - type: 9
+    statName: "\uACF5\uACA9 \uB370\uBBF8\uC9C0"
+    category: 1
+    statIcon: {fileID: 0}
+    valueSuffix: '%'
+  - type: 10
+    statName: "\uD53C\uACA9 \uB370\uBBF8\uC9C0"
+    category: 1
+    statIcon: {fileID: 0}
+    valueSuffix: '%'

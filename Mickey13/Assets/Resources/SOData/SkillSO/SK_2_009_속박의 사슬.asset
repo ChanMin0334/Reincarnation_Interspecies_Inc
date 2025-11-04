@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6310537917a1cfb40ad0eb0aca35b43f, type: 3}
+  m_Name: "SK_2_009_\uC18D\uBC15\uC758 \uC0AC\uC2AC"
+  m_EditorClassIdentifier: 
+  id: SK_2_009
+  name: "\uC18D\uBC15\uC758 \uC0AC\uC2AC"
+  dataType: 4
+  sprite: {fileID: 21300000, guid: 2696a3dcc79dfee4092d731e661837b2, type: 3}
+  description: "\uC801 \uD558\uB098\uC758 \uACF5\uACA9\uC18D\uB3C4\uB97C 50% 5\uCD08\uAC04
+    \uAC10\uC18C\uC2DC\uD0A8\uB2E4."
+  coolDown: 8
+  type: 2
+  isPassive: 0
+  triggerEvent: 0
+  effects:
+  - effectType: 3
+    targetType: 3
+    power: 50
+    duration: 5
+    buffType: 4
+    effectDescription: '[Debuff] Enemy 30% 5s AtkDown'
+    condition: 0
+    conditionValue: 0
+    tickInterval: 0
+    effectData:
+      effectPrefab: {fileID: 4935993317300502529, guid: 737f050cd497a4efc94b847111bc067d, type: 3}
+      triggerType: 0
+      duration: 0
+      animSpeed: 1
+      moveSpeed: 10
