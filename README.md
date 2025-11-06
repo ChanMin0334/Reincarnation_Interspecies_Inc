@@ -46,9 +46,9 @@
 
 | 이름   | 역할                                      | Git                                                   | 블로그                                                           | E-mail                   |
 |--------|-------------------------------------------|-------------------------------------------------------|------------------------------------------------------------------|--------------------------|
-| 오정석 | 기획팀장<br>기획서<br>영상제작<br>총무    | -                                                     | [https://litd-25.tistory.com/](https://litd-25.tistory.com/)     | jabisong25@gmail.com     |
-| 김인빈 | 기획<br>아트<br>와이어프레임              | -                                                     | [https://velog.io/@leafpuppy1413/posts](https://velog.io/@leafpuppy1413/posts) | leafpuppy1106@gmail.com  |
-| 오승엽 | 개발팀장<br>UI                            | [https://github.com/Cae1umBlue](https://github.com/Cae1umBlue) | -                                                                | sadrain9274@naver.com    |
+| 오정석 | 기획팀장    | -                                                     | [https://litd-25.tistory.com/](https://litd-25.tistory.com/)     | jabisong25@gmail.com     |
+| 김인빈 | 기획              | -                                                     | [https://velog.io/@leafpuppy1413/posts](https://velog.io/@leafpuppy1413/posts) | leafpuppy1106@gmail.com  |
+| 오승엽 | 개발팀장                          | [https://github.com/Cae1umBlue](https://github.com/Cae1umBlue) | -                                                                | sadrain9274@naver.com    |
 | 김준형 | 개발                                      | [https://github.com/kimjun3333](https://github.com/kimjun3333) | [https://velog.io/@yuiop788/posts](https://velog.io/@yuiop788/posts) | kheami35@gmail.com       |
 | 이찬민 | 개발                                      | [https://github.com/ChanMin0334](https://github.com/ChanMin0334) | [chan_min_(이찬민)](https://velog.io/@chan_min_/posts)                              | chanmin0334@naver.com    |
 | 정찬혁 | 개발                                      | [https://github.com/Veyro11/](https://github.com/Veyro11/) | [https://reveyro11.tistory.com/](https://reveyro11.tistory.com/) | 20050620hkchan@gmail.com |
